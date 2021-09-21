@@ -3,4 +3,4 @@ copyrightyear.textContent = new Date().getFullYear();
 
 
 const datemodified = document.getElementById("datemodified");
-datemodified.textContent = new Date (document.lastModified).toLocaleString();
+datemodified.textContent = document.lastModified;
