@@ -30,7 +30,7 @@ main{
     margin-left: 3em;
 }
 
-.content {
+section {
     display: block;
     text-align: center;
     background-color: rgb(156, 205, 221);
