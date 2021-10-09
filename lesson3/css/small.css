@@ -2,18 +2,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 a {
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 a:hover{
-    background-color:lightgreen;
+    background-color:rgb(144, 238, 144);
 }
 
 nav{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     background-color: #19addf;
     margin-left: 3em;
@@ -41,7 +42,7 @@ body{
 
 img{
     display: block;
-    width: 15%;
+    width: 30%;
     margin-top: 20px;
 }
 
@@ -55,7 +56,7 @@ main{
 section {
     display: block;
     text-align: center;
-    justify-content: center;
+    align-items: center;
     background-color: rgb(156, 205, 221);
     border-radius: 25px;
     padding: 1.5em;
