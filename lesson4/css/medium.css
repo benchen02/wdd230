@@ -1,0 +1,10 @@
+@media (min-width: 32.5em) {
+
+    #menu {
+        display: none
+    }
+
+    .navigation {
+        visibility: visible;
+    }
+}
