@@ -6,12 +6,3 @@ function functiondropmenu() {
       dropmenu.style.display = "block";
     }
   }
-
-function myFunction() {
-    var x = document.getElementById("hammenu");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
