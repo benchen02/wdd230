@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;  
+    max-width: fit-content;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: lightblue;
+    box-shadow: 3px 3px 3px grey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgb(59, 59, 59);
+    width: 50%;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1em;
+    border-radius: 0.5em;
+    justify-items: center;
+    box-shadow: 3px 3px 3px grey;
+    background-color: lightblue;
+}
