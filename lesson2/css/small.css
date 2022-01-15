@@ -1,0 +1,44 @@
+h1,
+h2
+ {
+  font-family: "Roboto", sans-serif;
+  color: lightgrey;
+}
+
+img {
+  width: 90%;
+  margin: 20px;
+}
+
+h3, h4, p {
+    margin: 20px;
+    color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 3em;
+}
+
+section {
+  display: grid;
+  background-color: grey;
+  margin-right: 1em;
+  justify-items: center;
+  border-radius: 0.5em;
+}
+
+header {
+  display: grid;
+  justify-items: center;
+  background-color: black;
+}
+
+footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 1em;
+  justify-items: center;
+  background-color: lightgrey;
+}
