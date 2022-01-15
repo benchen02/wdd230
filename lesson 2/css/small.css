@@ -10,7 +10,7 @@ img {
   margin: 20px;
 }
 
-h3, h4, p {
+h3, h4, p, a{
     margin: 20px;
     color: white;
 }
@@ -27,6 +27,7 @@ section {
   margin-right: 1em;
   justify-items: center;
   border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px;
 }
 
 header {
