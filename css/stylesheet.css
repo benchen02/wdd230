@@ -5,6 +5,11 @@ body {
     padding: 1em;
 }
 
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: lightgrey;
+  }
+
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,7 +17,7 @@ header{
     max-width: fit-content;
     padding: 1em;
     border-radius: 0.5em;
-    background-color: lightblue;
+    background-color: black;
     box-shadow: 3px 3px 3px grey;
 }
 
@@ -20,16 +25,40 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 3px 3px 3px rgb(59, 59, 59);
+    box-shadow: 3px 3px 3px rgb(187, 187, 187);
     width: 50%;
 }
+
+h2,
+a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+section {
+    display: grid;
+    background-color: rgb(105, 105, 105);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px;
+  }
 
 footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 1em;
-    border-radius: 0.5em;
     justify-items: center;
-    box-shadow: 3px 3px 3px grey;
-    background-color: lightblue;
+    background-color: lightgrey;
 }

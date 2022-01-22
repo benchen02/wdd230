@@ -63,7 +63,6 @@ img {
 footer {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  padding: 1em;
   justify-items: center;
   background-color: lightgrey;
 }
