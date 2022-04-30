@@ -1,0 +1,57 @@
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3, h4, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: grey;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.25) 1px,
+    transparent 1px,
+    transparent 6px
+  );
+  background-size: 8px 8px;
+}
+
+header,
+footer {
+  display: grid;
+  margin: 1em;
+  padding: 1em;
+  justify-items: center;
+  background-color: rgb(110, 109, 109);
+}
+
+main {
+  display: grid;
+  justify-self: center;
+  align-content: center;
+  grid-template-columns: 1fr;
+}
+
+section {
+  margin: 1em;
+  text-align: center;
+  background-color: darkgrey;
+  border-radius: 1em;
+}
+
+h3 {
+  padding: 0.25em;
+  background-color: lightgrey;
+}
+
+p {
+  padding: 1em;
+  text-align: justify;
+}
+
+img {
+  width: 90%;
+  padding: 1em;
+}
