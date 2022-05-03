@@ -29,12 +29,10 @@ footer {
 
 main {
   display: grid;
-  justify-self: center;
-  align-content: center;
-  grid-template-columns: 1fr;
 }
 
 section {
+  display: grid;
   margin: 1em;
   text-align: center;
   background-color: darkgrey;
@@ -52,6 +50,6 @@ p {
 }
 
 img {
-  width: 90%;
+  margin: auto;
   padding: 1em;
 }
