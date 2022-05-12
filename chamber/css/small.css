@@ -131,9 +131,12 @@ li:first-child {
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
   padding: 1em;
+}
+
+header .logo{
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .social {
