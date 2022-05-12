@@ -1,0 +1,184 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+#date,
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+#date {
+  background-color: rgb(144, 144, 144);
+  padding: 5px;
+  color: white;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+nav{
+  margin-top: 38px;
+}
+
+body {
+  background-color: grey;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.25) 1px,
+    transparent 1px,
+    transparent 6px
+  );
+  background-size: 8px 8px;
+}
+
+header,
+footer {
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  background-color: darkgrey;
+}
+
+header {
+  margin-bottom: 7px;
+}
+
+footer {
+  margin-top: 7px;
+  flex-direction: column;
+  row-gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0em;
+}
+
+nav a {
+  display: block;
+  padding: 2.5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  padding: 0.25em;
+  background-color: lightgrey;
+  margin-top: 0;
+  border-top-right-radius: 0.7em;
+  border-top-left-radius: 0.7em;
+}
+
+h4 {
+  margin-bottom: 1em;
+}
+
+section {
+  margin: 7px;
+  text-align: center;
+  background-color: darkgrey;
+  border-radius: 1em;
+}
+
+.address p,
+.contact p {
+  margin: 0em;
+  text-align: center;
+}
+
+.base {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+p {
+  margin: 1em;
+  text-align: justify;
+}
+
+.nav li {
+  display: none;
+  padding: 15px;
+  list-style-type: none;
+}
+
+ul {
+  padding: 0px;
+  margin: 1em;
+}
+
+li:first-child {
+  display: block;
+}
+
+.heading {
+  text-align: center;
+  flex-grow: 1;
+  margin-top: 45px;
+}
+
+.responsive li {
+  display: block;
+}
+
+.spotlight3,
+.join {
+  display: none;
+}
+
+.logo {
+  padding: 1em;
+}
+
+.social {
+  padding: 5px;
+  margin-top: 58px;
+}
+
+.social:hover {
+  background-color: darkgrey;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: grey;
+}
+
+header > section {
+  order: 1;
+}
+
+header > nav {
+  order: 2;
+}
+
+header > div {
+  order: 3;
+}
+
+header > nav {
+  order: 4;
+}
+
+header > span {
+  order: 5;
+}
