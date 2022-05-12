@@ -1,26 +1,25 @@
 @media (min-width: 1024px) {
-
-header,
-footer {
-  align-items: center;
-  justify-content: center;
-}
+  header,
+  footer {
+    align-items: center;
+    justify-content: center;
+  }
 
   ul {
     display: flex;
     justify-content: space-around;
   }
 
-  .nav li{
-      display: block;
+  .nav li {
+    display: block;
   }
 
-  .heading{
+  .heading {
     flex-grow: 0;
     margin-top: 0px;
   }
 
-  .social{
+  .social {
     margin-top: 0px;
   }
 
@@ -29,9 +28,9 @@ footer {
     margin-top: 0px;
   }
 
-    li:first-child{
-      padding: 0px;
-      display: none;
+  li:first-child {
+    padding: 0px;
+    display: none;
   }
 
   .event {
@@ -75,19 +74,19 @@ footer {
     grid-row: 3/4;
   }
 
-header>section{
+  header > section {
     order: 1;
   }
-  
-  header>nav{
+
+  header > nav {
     order: 2;
   }
-  
-  header>div{
+
+  header > div {
     order: 4;
   }
 
-  header>span{
+  header > span {
     order: 5;
   }
 }

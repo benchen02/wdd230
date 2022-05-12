@@ -1,17 +1,16 @@
 @media (min-width: 700px) {
-
   main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  footer{
-      column-gap: 3em;
-      flex-direction: row;
+  footer {
+    column-gap: 3em;
+    flex-direction: row;
   }
 
-  footer p{
-      padding: 2px;
+  footer p {
+    padding: 2px;
   }
 
   .heading {
