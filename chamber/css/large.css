@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
-  header,
-  footer {
+  
+  header{
     align-items: center;
     justify-content: center;
   }
