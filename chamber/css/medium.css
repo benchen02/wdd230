@@ -5,6 +5,10 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
+  nav{
+    margin-top: 38px;
+  }
+
   footer {
     column-gap: 3em;
     flex-direction: row;

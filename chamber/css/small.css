@@ -12,14 +12,28 @@ h4 {
 }
 
 #date,
+.message,
+.postMessage,
 p,
 a {
   font-family: "Roboto", sans-serif;
 }
 
+.message{
+  margin:auto;
+  text-align: center;
+  text-shadow: 2px 2px 3px white;
+}
+
+.postMessage{
+  margin:auto;
+  text-align: center;
+}
+
 #date {
   background-color: rgb(101, 101, 101);
   padding: 5px;
+  margin: 10px;
   color: white;
   flex-basis: 100%;
   text-align: center;
@@ -58,7 +72,6 @@ body {
 nav {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 38px;
 }
 
 nav a {
@@ -90,14 +103,22 @@ section {
   border-radius: 1em;
 }
 
+.weather img{
+  text-align: left;
+}
+
+.temp{
+  font-size: 24px;
+}
+
 .base {
   flex-basis: 100%;
   text-align: center;
 }
 
 p {
-  margin: 1em;
-  text-align: justify;
+  margin: 10px;
+  text-align: center;
 }
 
 .nav li {
@@ -153,7 +174,10 @@ header .logo{
 .address p,
 .contact p {
   margin: 0em;
-  text-align: center;
+}
+
+button {
+  background: darkgray;
 }
 
 a:link {
@@ -166,7 +190,7 @@ a:visited {
   text-decoration: none;
 }
 
-li:hover {
+li:hover, a:hover {
   background-color: grey;
 }
 
