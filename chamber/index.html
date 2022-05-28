@@ -20,7 +20,7 @@
 
     <header>
         <picture class="logo">
-            <img src="images/Mountain_Valley_Logo.png" alt="Mountain Valley Logo">
+            <img src="images/mountain_valley_logo/mountain_valley_logo.webp" alt="Mountain Valley Logo">
         </picture>
         <section class="heading">
             <h1>The Mountain Valley</h1>
@@ -37,10 +37,10 @@
         </nav>
         <div class="social">
             <a href="https://www.facebook.com">
-                <img src="images/Facebook_Logo.png" alt="FaceBook Logo">
+                <img src="images/Facebook_Logo/Facebook_Logo.png" alt="FaceBook Logo">
             </a>
             <a href="https://www.linkedin.com">
-                <img src="images/LinkedIn_Logo.png" alt="LinkedIn Logo">
+                <img src="images/LinkedIn_Logo/LinkedIn_Logo.png" alt="LinkedIn Logo">
             </a>
         </div>
         <span id="date"></span>
@@ -49,52 +49,51 @@
 
     <main>
         <section class="heroCall">
-            <h3>Call to Action</h3>
-            <p>Facere dolorem vero debitis consequuntur vitae quasi possimus cum nisi, beatae
-                laboriosam ut officiis, laudantium incidunt, perferendis odio. Voluptate tempora
-                excepturi explicabo quo maxime optio sapiente impedit sit hic eaque.</p>
+            <h3>Welcom To The Mountain Valley Chamber of Commerce</h3>
+            <p>We welcome you to the Mountain Valley Chamber of Commerce we hope you enjoy your stay</p>
+            <button>Join us now</button>
         </section>
         <section class="event">
             <h3>Group Hiking</h3>
-            <picture><img src="images/hiking_event.png" alt="hiking_map"></picture>
+            <picture><img src="images/hiking_event/hiking_event.png" alt="hiking_map"></picture>
             <p>Don't miss out on our hike this Saturday hosted by our local hiking club and explore
                 the various trails we have to offer.</p> 
                 <div><p><a href="#">Click here for more info...</a></p></div>
         </section>
         <section class="weather">
             <h3>Weather</h3>
-                <picture><img src="images/weather_icon.jpg" alt="weather"></picture>
-                <p class="temp">33&deg;F</p>
-                <p>Fuga, numquam doloribus doloremque aliquid, ipsum minus distinctio ex neque
-                    laudantium ducimus vitae vel sed labore, quis consectetur. Aliquid quisquam
-                    sapiente omnis incidunt eligendi, optio quaerat praesentium quis esse fuga!</p>
+                <picture><img src="images/weather_icon/weather_icon.jpg" alt="weather"></picture>
+                <p class="temp">Temp: <input type="number" id="tempF" placeholder="33&deg;F"></p>
+                <p>Wind Speed: <input type="number" id="windspd" placeholder="45mph"></p>
+                <p>Wind Chill: <span id="windchl"></span></p>
+                <button id="calcwindchill">Calculate Wind Chill</button>
             </section>
             
         <section class="news">
             <h3>News</h3>
-            <p>Odio cupiditate quae perspiciatis similique ratione facere ad iste voluptatem
-                velit cumque minus aspernatur repellat adipisci ea voluptates quis vero, dignissimos
-                quisquam animi ut molestiae! Accusamus possimus totam laboriosam sapiente!</p>
+            <p>The Spanish Inqisition was not expected. Thousounds of houses checked for contraband.
+                A few owners had swords on display.
+            </p>
         </section>
         <section class="spotlight">
             <h3>Here are some local businesses</h3>
                 <section class="spotlight1">
                     <h4>Cyber Legacy</h4>
-                    <picture><img src="images/computer_logo.png" alt="Cyber Legacy Logo"></picture>
+                    <picture><img src="images/computer_logo/computer_logo.png" alt="Cyber Legacy Logo"></picture>
                     <p>"We'll fix any electronics you have, both old and new."</p>
                     <p class="businessContact">info@cyber.com | +1(626)-987-6515</p>
                     <div><p><a href="#">cyberlegacy.com</a></p></div>
                 </section>
                 <section class="spotlight2">
                     <h4>Limitless Hiking Club</h4>
-                    <picture><img src="images/hiking_trail.png" alt="Hiking Club Logo"></picture>
+                    <picture><img src="images/hiking_trail/hiking_trail.png" alt="Hiking Club Logo"></picture>
                     <p>"All are welcome to join our local hiking trials"</p>
                     <p class="businessContact">trails@hikeclub.com | +1(626)-556-8845</p>
                     <div><p><a href="#">limitlesshiking.com</a></p></div>
                 </section>
                 <section class="spotlight3">
                     <h4>Lively Movers Co.</h4>
-                    <picture><img src="images/movers_logo.png" alt="Movers Logo"></picture>
+                    <picture><img src="images/movers_logo/movers_logo.png" alt="Movers Logo"></picture>
                     <p>"Tell us where and we'll help you move."</p>
                     <p class="businessContact">contact@moversco.com | +1(626)-156-3416</p>
                     <div><p><a href="#">livelymovers.com</a></p></div>
@@ -110,7 +109,7 @@
 
     <footer>
         <picture class="logo">
-            <img src="images/Mountain_Valley_Logo.png" alt="Mountain Valley Logo">
+            <img src="images/Mountain_Valley_Logo/mountain_valley_logo.webp" alt="Mountain Valley Logo">
         </picture>
         <div class="address">
             <h4>Mountain Valley Chamber of Commerce</h4>
@@ -131,6 +130,7 @@
         <script src="js/date.js"></script>
         <script src="js/menu.js"></script>
         <script src="js/message.js"></script>
+        <script src="js/windchill.js"></script>
     </footer>
 </body>
 

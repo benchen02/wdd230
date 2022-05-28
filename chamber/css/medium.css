@@ -19,7 +19,7 @@
   .heroCall {
     grid-column: 1/5;
     grid-row: 1/2;
-  }
+    }
   
   .news {
     grid-column: 1/5;

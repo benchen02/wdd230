@@ -1,3 +1,16 @@
+/* Hide input number spin buttons */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 /* Fonts */
 h1,
 h2,
@@ -74,7 +87,7 @@ header .logo{
   padding: 5px;
 }
 
-.social:hover {
+.social:hover a{
   background-color: darkgrey;
 }
 
@@ -160,6 +173,14 @@ button {
   background: darkgray;
 }
 
+/* Hero CSS */
+.heroCall{
+  background-image: url(/chamber/images/temp_hero_img/wdd230-org.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 200px;
+}
+
 /* Weather CSS*/
 .weather{
   display: grid;
@@ -187,6 +208,22 @@ button {
 
 .weather p {
   grid-column: 1/3;
+}
+
+.weather input{
+  width: 80%;
+  margin-top: 5px;
+}
+
+.weather #tempF{
+  font-size: 20px;
+}
+
+.weather button{
+  grid-column: 1/3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
 }
 
 /* Spotlight CSS */
