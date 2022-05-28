@@ -19,7 +19,7 @@
   .heroCall {
     grid-column: 1/5;
     grid-row: 1/2;
-    background-image: url(/chamber/images/temp_hero_img/wdd230-org200px.png);
+    background-image: url(https://benchen02.github.io/chamber/images/temp_hero_img/wdd230-org200px.png);
     }
   
   .news {
