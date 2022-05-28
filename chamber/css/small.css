@@ -175,10 +175,10 @@ button {
 
 /* Hero CSS */
 .heroCall{
-  background-image: url(/chamber/images/temp_hero_img/wdd230-org.png);
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 200px;
+  min-height: 200px;
+  background-image: url(/chamber/images/temp_hero_img/wdd230-org100px.png);
 }
 
 /* Weather CSS*/
