@@ -2,9 +2,7 @@ const tempFinput = document.querySelector('#tempF');
 const windspdinput = document.querySelector('#windspd');
 const windchill = document.querySelector('#windchl');
 const btn = document.querySelector('#calcwindchill');
-
-btn.addEventListener('click', () => {
-    
+ 
     const tempF = parseInt(tempFinput.value);
     const windspd = parseInt(windspdinput.value);
 
@@ -17,4 +15,3 @@ btn.addEventListener('click', () => {
     }
     
     windchill.textContent = result;
-});

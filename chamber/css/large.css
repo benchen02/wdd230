@@ -52,10 +52,9 @@
   }
 
   .heroCall {
-    background-image: url(https://github.com/benchen02/wdd230/blob/master/chamber/images/temp_hero_img/wdd230-org.png);
+    background-image: url(/chamber/images/temp_hero_img/wdd230-org.png);
     grid-column: 2/4;
     grid-row: 1/3;
-    max-height: 826.93px;
   }
 
   .news {
