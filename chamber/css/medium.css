@@ -16,16 +16,18 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .discover {
-    display: flex;
-  }
-
   .mainSection img{
     display: inline;
   }
 
   .mainSection img:hover{
     box-shadow: 0 0 50px #333;
+  }
+
+/* Discover CSS */
+
+  .discover {
+    display: flex;
   }
 
   .discover p{
