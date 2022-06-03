@@ -52,7 +52,7 @@
   }
 
   .heroCall {
-    background-image: url(/chamber/images/temp_hero_img/wdd230-org.png);
+    background-image: url(/../images/temp_hero_img/wdd230-org.png);
     grid-column: 2/4;
     grid-row: 1/3;
   }
