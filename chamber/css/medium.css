@@ -34,8 +34,11 @@
   .heroCall {
     grid-column: 1/5;
     grid-row: 1/2;
-    background-image: url(../images/temp_hero_img/wdd230-org200px.png);
     }
+
+  .heroCall div {
+    top: 23%;
+  }
   
   .news {
     grid-column: 1/5;

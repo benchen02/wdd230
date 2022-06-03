@@ -182,10 +182,19 @@ button {
 
 /* Hero CSS */
 .heroCall{
-  background-repeat: no-repeat;
-  background-position: center;
+  position: relative;
   min-height: 200px;
-  background-image: url(../images/temp_hero_img/wdd230-org100px.png);
+}
+
+.heroCall div {
+  top: 25%;
+  right: 1%;
+  left: 1%;
+  position: absolute;
+}
+
+.heroCall img{
+  width: 100%;
 }
 
 /* Weather CSS*/
