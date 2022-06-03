@@ -24,6 +24,10 @@
     display: inline;
   }
 
+  .mainSection img:hover{
+    box-shadow: 0 0 50px #333;
+  }
+
   .discover p{
     padding-top: 25px;
     padding-left: 25px;
