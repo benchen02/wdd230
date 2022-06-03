@@ -16,6 +16,21 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .discover {
+    display: flex;
+  }
+
+  .mainSection img{
+    display: inline;
+  }
+
+  .discover p{
+    padding-top: 25px;
+    padding-left: 25px;
+    float: left;
+    width: 50%;
+  }
+
   .heroCall {
     grid-column: 1/5;
     grid-row: 1/2;

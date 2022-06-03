@@ -147,7 +147,7 @@ a:visited {
   text-decoration: none;
 }
 
-li:hover, a:hover {
+li:hover, a:hover .logo:hover{
   background-color: grey;
 }
 
@@ -159,9 +159,9 @@ main {
 
 section {
   margin: 7px;
-  text-align: center;
   background-color: darkgrey;
   border-radius: 1em;
+  text-align: center;
 }
 
 p {
@@ -171,6 +171,13 @@ p {
 
 button {
   background: darkgray;
+}
+
+/* Discover CSS */
+
+.discover img{
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 /* Hero CSS */
