@@ -1,7 +1,13 @@
 const tempFinput = document.querySelector('#tempF');
 const windspdinput = document.querySelector('#windspd');
 const windchill = document.querySelector('#windchl');
- 
+
+
+tempFinput.addEventListener('change', calcwindspeed);
+windspdinput.addEventListener('change', calcwindspeed);
+
+function calcwindspeed(event){
+
     const tempF = parseInt(tempFinput.value);
     const windspd = parseInt(windspdinput.value);
 
@@ -14,3 +20,4 @@ const windchill = document.querySelector('#windchl');
     }
     
     windchill.textContent = result;
+}
