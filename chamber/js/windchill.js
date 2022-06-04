@@ -1,7 +1,6 @@
 const tempFinput = document.querySelector('#tempF');
 const windspdinput = document.querySelector('#windspd');
 const windchill = document.querySelector('#windchl');
-const btn = document.querySelector('#calcwindchill');
  
     const tempF = parseInt(tempFinput.value);
     const windspd = parseInt(windspdinput.value);
