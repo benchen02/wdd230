@@ -7,7 +7,7 @@ const daySince = document.querySelector('#daySince');
 let daysVisit = Number(window.localStorage.getItem("visits-ls"));
 
 if (daysVisit == 0){
-    void(0);
+   daySince.textContent = 'This is your first time visiting.';
 } else {
     daydiff = daysVisit - Date.now();
     dayTotal = daydiff/days;
