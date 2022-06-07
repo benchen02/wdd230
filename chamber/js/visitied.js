@@ -7,7 +7,7 @@ const daySince = document.querySelector('#daySince');
 let daysVisit = Number(window.localStorage.getItem("visits-ls"));
 
 if (daysVisit == 0){
-   daySince.textContent = 'This is your first time visiting.';
+   daySince.textContent = 'Welcome to the discover page.';
 } else {
     daydiff = daysVisit - Date.now();
     dayTotal = daydiff/days;
@@ -18,5 +18,5 @@ if (daysVisit == 0){
 }
 
 currentdate = Number(window.localStorage.setItem("visits-ls", Date.now()));
-daySince.textContent = `Time since you last visit: ${Math.round(Math.abs(dayTotal))} 
-Days and ${Math.round(Math.abs(dayhour))} hours and ${Math.round(Math.abs(dayMin))} min`;
+daySince.textContent = `It's been ${Math.round(Math.abs(dayTotal))} 
+Days, ${Math.round(Math.abs(dayhour))} hours, and ${Math.round(Math.abs(dayMin))} min since you last visted.`;
