@@ -32,6 +32,10 @@ tbody tr:first-child th, tbody tr:nth-child(5) td:nth-child(3){
     background-color: rgba(98,140,166,255);
 }
 
+tbody tr:nth-child(6) td:first-child{
+    font-style: italic;
+}
+
 tbody tr:nth-child(even){
     background-color: rgba(231,240,237,255);
 }
