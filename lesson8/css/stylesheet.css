@@ -2,15 +2,55 @@ h1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*Changes*/
+table{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
 
+thead, tfoot{
+    background-color: rgba(127,185,194,255);
+}
+
+thead{
+    font-size: 24px;
+}
+
+tbody{
+    font-size: 18px;
+}
+
+tbody tr:first-child th, tbody tr:nth-child(5) td:nth-child(3){
+    color: rgba(252,246,240,255);
+    background-color: rgba(98,140,166,255);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(231,240,237,255);
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgba(231,255,237,255);
+}
+
+tfoot{
+    font-size: 12px;
+}
+
+/*Changes end*/
 
 header, main, footer {
     max-width: 760px;
     margin: 1em auto;
     border-radius: 10px;
 }
-
 
 body {
     background-color: grey;
@@ -20,12 +60,9 @@ body {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 1em;
     background-color: rgb(110, 109, 109);
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     column-gap: 20px;
 }
 
@@ -34,7 +71,6 @@ main {
     padding: 1em;
     background-color: darkgray;
 }
-
 
 footer {
     padding: 1em;
