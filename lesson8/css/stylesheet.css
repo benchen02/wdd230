@@ -7,10 +7,11 @@ table{
     font-family: 'Ubuntu', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 2px 2px 2px rgba(133,165,184,255);
 }
 
 table, th, td{
-    border: 1px solid black;
+    border: 1px solid rgba(124,155,174,255);
     border-collapse: collapse;
     padding: 5px;
 }
