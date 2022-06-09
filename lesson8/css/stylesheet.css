@@ -7,7 +7,7 @@ table{
     font-family: 'Ubuntu', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 2px 2px 2px rgba(133,165,184,255);
+    box-shadow: 3px 3px 3px rgba(133,165,184,255);
 }
 
 table, th, td{
