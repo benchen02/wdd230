@@ -11,7 +11,7 @@
 
   /* Main CSS */
 
-  main {
+  .index {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
