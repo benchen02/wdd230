@@ -152,7 +152,7 @@ li:hover, a:hover .logo:hover{
 }
 
 /* Main CSS */
-.index .discover {
+.index {
   display: flex;
   flex-direction: column;
 }
@@ -171,6 +171,11 @@ p {
 
 button {
   background: darkgray;
+}
+
+/* Thank you CSS*/
+p.thankYou{
+  padding: 10px;
 }
 
 /* Discover CSS */

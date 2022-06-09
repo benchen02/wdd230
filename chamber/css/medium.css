@@ -28,6 +28,7 @@
 
   .discover {
     display: flex;
+    flex-direction: column;
   }
 
   .discover p{
