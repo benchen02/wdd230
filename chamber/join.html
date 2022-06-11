@@ -54,16 +54,45 @@
 
     <main>
 
-        <section>
+        <section class="form">
+            <h2>Membership Application</h2>
             <form action="/chamber/thankyou.html" method="get">
                 <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
+                <input type="text" id="fname" required>
+
                 <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <button type="submit">Submit</button>
-                <button type="submit" formmethod="post">Submit using POST</button>
+                <input type="text" id="lname" required>
+         
+                
+                <br><label for="email">Email:</label>
+                <input type="email" placeholder="JaneDoe@gmail.com" required>
+
+                <label for="cellphoneNum">Cell Phone Number:</label>
+                <input type="tel" placeholder="123-456-7891" required>
+
+                <br><label for="businessPosition" title="businessPosition">Business Position:</label>
+                <input type="text" id="businessPosition">
+
+                <label for="businessName" title="businessName">Business Name:</label>
+                <input type="text" required>
+
+                <br><br><label for="memberlevel">Choose a membership level:</label>
+                <br><input type="radio" name="membership" id="NP">
+                <label for="NP">NP Membership. For non profit organizations, no fee attached.</label>
+                <br><input type="radio" name="membership" id="bronze">
+                <label for="bronze">Bronze Membership</label>
+                <br><input type="radio" name="membership" id="silver">
+                <label for="silver">Silver Membership</label>
+                <br><input type="radio" name="membership" id="gold">
+                <label for="gold">Gold Membership</label>
+
+                <br><br><label for="businessDesc">Buisiness Description:</label>
+                <br><textarea name="businessDesc" id="businessDesc" cols="50" rows="6"></textarea>
+
+                <input type="hidden" id="accessdate" name="date" >
+
+                <br><button type="submit">Submit</button>
               </form>
-            </form>
         </section>
 
     </main>
@@ -86,7 +115,7 @@
 
         <div class="base">&copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson Chen | WDD 230
             Project |
-            <span id='lastmodfulldate'></span>
+            <span class='lastmodfulldate'></span>
         </div>
         <script src="js/date.js"></script>
         <script src="js/menu.js"></script>

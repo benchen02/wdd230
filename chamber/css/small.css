@@ -173,9 +173,13 @@ button {
   background: darkgray;
 }
 
-/* Thank you CSS*/
+/* Join CSS*/
 p.thankYou{
   padding: 10px;
+}
+
+.form input, .form button, .form textarea{
+  margin: 10px;
 }
 
 /* Discover CSS */
