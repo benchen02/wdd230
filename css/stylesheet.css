@@ -25,14 +25,14 @@ header, main, footer {
 
 
 body {
-    background-color: #fffbf0;
+    background-color: #F0EEA3;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1em;
-    background-color: #943d24;
+    background-color: #009845;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
@@ -40,18 +40,14 @@ header {
 
 main {
     padding: 1em;
-    background-color: #e4ddf4;
+    background-color: #6BA539;
 }
 
 
 footer {
     padding: 1em;
     text-align: center;
-    background-color: #2d2d2d;
-}
-
-footer div{
-    color: #fffbf0;
+    background-color: #009845;
 }
 
 a:link{
