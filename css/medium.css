@@ -1,0 +1,5 @@
+@media(max-width: 32.5em) {
+    h1, h2, div {
+        color: gold;
+    }
+}
