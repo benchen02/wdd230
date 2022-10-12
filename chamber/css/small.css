@@ -36,8 +36,10 @@ header{
   justify-content: center;
 }
 
-img{
+#logo{
   width: 15%;
+  height: 15%;
+  align-self: center;
 }
 
 nav li{
@@ -46,7 +48,12 @@ nav li{
 
 .nav {
   display: flex;
+  flex-grow: 40;
   list-style: none;
+}
+
+.nav a{
+  padding: 1em;
 }
 
 .nav li:first-child{
@@ -55,11 +62,12 @@ nav li{
 
 .nav li{
   display: none;
-  padding: 1em;
+  justify-content: space-between;
 }
 
 .responsive li{
   display: block;
+  padding: 1em;
 }
 
 section {
@@ -81,9 +89,10 @@ h2 {
 
 .social {
   padding: 0.25em;
-  align-self: center;
-  width: 30px;
-  height: 30px;
+  align-self: flex-start;
+  width: auto;
+  flex-grow: 1;
+  margin: auto;
 }
 
 p {

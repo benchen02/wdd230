@@ -17,6 +17,11 @@
         justify-content: space-between;
     }
 
+    .nav a{
+        padding: 1em;
+        justify-content: space-around;
+      }
+
     .social {
         padding: 0.25em;
         align-self: center;
