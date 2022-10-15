@@ -18,12 +18,13 @@
   </head>
   <body>
     <header>
-      <img id="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain-Valley-Logo">
+      <img class="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain-Valley-Logo">
       <section class="heading">
         <h1>Mountain View</h1>
         <h2>Chamber of Commerce</h2>
       </section>
         <section id="date"></section>
+        <span class="message"></span>
         <nav class="nav">
           <ul>
             <li><a id="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
@@ -39,71 +40,89 @@
 
         <main>
             <section id="event">
-                Event
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Event</h3>
+                <img src="images/hiking_trail.png" alt="hiking map">
+                <p>Don't miss out on our hike this Saturday hosted by our local hiking club and explore
+                  the various trails we have to offer.</p> 
+                <p><a href="#">Click here for more info...</a></p>
             </section>
 
             <section id="weather">
-                Weather
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Weather</h3>
+                <img src="images/weather_icon.jpg" alt="weather icon">
+                <p> Temp: 20 &deg;F</p>
+                <P> Sunny</P>
+                <p> WindSpeed: 2.5 mph</p>
+                <p> windchill: N/A</p>
             </section>
 
             <section id="join">
-                Join
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Join</h3>
+                <p>Join us and discover the benefits of our business community</p>
+                <button>Join Us</button>
             </section>
 
             <section id="hero">
-                Hero image and call to action
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Welcom To The Mountain Valley Chamber of Commerce</h3>
+                <p>We welcome you to the Mountain Valley Chamber of Commerce we hope you enjoy your stay</p>
+                    <button>Join us now</button>
             </section>
 
             <section id="news">
-                News Release
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>News Release</h3>
+                <p>The Spanish Inqisition was not expected. Thousounds of houses checked for contraband.
+                  A few owners had swords on display.
+              </p>
             </section>
 
         <section class="spotlight">
             <section id="spotlight1">
-                Spotlight 1
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Cyber Legacy</h3>
+                <img src="images/computer_logo.png" alt="Cyber Legacy Logo">
+                <p>"We'll fix any electronics you have, both old and new."</p>
+                    <p class="businessContact">info@cyber.com | +1(626)-987-6515</p>
+                    <div><p><a href="#">cyberlegacy.com</a></p></div>
             </section>
 
             <section id="spotlight2">
-                Spotlight 2
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Limitless Hiking Club</h3>
+                <img src="images/hiking_trail.png" alt="Hiking Club Logo">
+                <p>"All are welcome to join our local hiking trials"</p>
+                    <p class="businessContact">trails@hikeclub.com | +1(626)-556-8845</p>
+                    <div><p><a href="#">limitlesshiking.com</a></p></div>
             </section>
 
             <section id="spotlight3">
-                Spotlight 3
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, 
-                  tempore et. Deserunt et aut eum, rerum vitae nemo rem debitis nisi, 
-                  vel praesentium quas blanditiis natus ut porro, soluta odit.</p>
+                <h3>Lively Movers Co.</h3>
+                <img src="images/movers_logo.png" alt="Movers Logo">
+                <p>"Tell us where and we'll help you move."</p>
+                    <p class="businessContact">contact@moversco.com | +1(626)-156-3416</p>
+                    <div><p><a href="#">livelymovers.com</a></p></div>
             </section>
         </section>
         </main>
 
     <footer>
-      <div>
-        &copy; <span id="currentyear"></span> | Benson Chen | Idaho
-      </div>
-      <div>Last Updated: <span id="currentdate"></span></div>
+        <img class="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain Valley Logo">
+    <div class="address">
+        <h4>Mountain Valley Chamber of Commerce</h4>
+        <p>321 S. New Avenue</p>
+        <p>San Gabriel, California 91776</p>
+    </div>
+
+    <div class="contact">
+        <p>moreinfo@mtvalleycc.org</p>
+        <p>+1(626)-123-456</p>
+        <p class="map">Map Link</p>
+    </div>
+
+    <div class="footer">
+        &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson Chen | WDD 230 Project |
+        Last Updated: <span id="currentdate"></span>
+    </div>
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
+      <script src="js/message.js"></script>
     </footer>
   </body>
 </html>

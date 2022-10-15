@@ -30,13 +30,44 @@ header{
   justify-content: center;
 }
 
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  justify-content: center;
+}
+
+footer p {
+  padding: 0px;
+  margin: 0.5em;
+  margin-left: 4em;
+}
+
+h4{
+  margin-left: 4em;
+}
+
+.footer {
+  flex-basis: 100%;
+  margin-top: 0.5em;
+}
+
 .heading {
   background-color: #009845;
   align-items: center;
   justify-content: center;
 }
 
-#logo{
+.message {
+  flex-basis: 100%;
+}
+
+.logo{
   width: 15%;
   height: 15%;
   align-self: center;
@@ -70,8 +101,11 @@ nav li{
   padding: 1em;
 }
 
+.message {
+  text-shadow: 1px 1px 3px white;
+}
+
 section {
-  display: flex;
   flex-direction: column;
   margin: 1em;
   text-align: center;
@@ -96,7 +130,8 @@ h2 {
 }
 
 p {
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   text-align: justify;
 }
 
@@ -132,6 +167,19 @@ a {
     margin: 0em;
     margin-bottom: 1em;
     flex-basis: 100%;
+}
+
+section img {
+  align-self: center;
+  width: 40%;
+}
+
+#weather p{
+  margin: 0em;
+}
+
+#spotlight1 p, #spotlight2 p, #spotlight3 p{
+  margin: 10px;
 }
 
 #spotlight1, #spotlight2 {
