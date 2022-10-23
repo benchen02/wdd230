@@ -39,6 +39,20 @@
     </header>
 
         <main>
+
+          <section id="hero">
+            <h3>Welcom To The Mountain Valley Chamber of Commerce</h3>
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/temp_hero_img/wdd230-org.png">
+              <source media="(min-width: 690px)" srcset="images/temp_hero_img/wdd230-org200px.png">
+              <img src="images/temp_hero_img/wdd230-org100px.png" alt="mountain valley images">
+          </picture>
+          <div>
+            <p>We welcome you to the Mountain Valley Chamber of Commerce we hope you enjoy your stay</p>
+                <button>Join us now</button>
+              </div>
+        </section>
+        
             <section id="event">
                 <h3>Event</h3>
                 <img src="images/hiking_event.png" alt="hiking map">
@@ -50,10 +64,9 @@
             <section id="weather">
                 <h3>Weather</h3>
                 <img src="images/weather_icon.jpg" alt="weather icon">
-                <p> Temp: 20 &deg;F</p>
-                <P> Sunny</P>
-                <p> WindSpeed: 2.5 mph</p>
-                <p> windchill: N/A</p>
+                <p class="temp">Temp: <input type="number" id="tempF" placeholder="33&deg;F"></p>
+                <p>Wind Speed: <input type="number" id="windspd" placeholder="4mph"></p>
+                <p>Wind Chill: <span id="windchl"></span></p>
             </section>
 
             <section id="join">
@@ -62,11 +75,7 @@
                 <button>Join Us</button>
             </section>
 
-            <section id="hero">
-                <h3>Welcom To The Mountain Valley Chamber of Commerce</h3>
-                <p>We welcome you to the Mountain Valley Chamber of Commerce we hope you enjoy your stay</p>
-                    <button>Join us now</button>
-            </section>
+
 
             <section id="news">
                 <h3>News Release</h3>
@@ -123,6 +132,7 @@
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/message.js"></script>
+      <script src="js/windchill.js"></script>
     </footer>
   </body>
 </html>
