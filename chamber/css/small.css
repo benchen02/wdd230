@@ -1,3 +1,10 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+
 /* Fonts */
 h1,
 h2 {
@@ -26,98 +33,19 @@ footer {
   background-color: #009845;
 }
 
-
-/* Header CSS */
-header{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-footer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-footer img {
-  justify-content: center;
-}
-
-footer p {
-  padding: 0px;
-  margin: 0.5em;
-  margin-left: 4em;
-}
-
-h4{
-  margin-left: 4em;
-}
-
-.footer {
-  flex-basis: 100%;
-  margin-top: 0.5em;
-}
-
 .heading {
   background-color: #009845;
   align-items: center;
   justify-content: center;
 }
 
-.message {
-  flex-basis: 100%;
-}
-
-.logo{
-  width: 15%;
-  height: 15%;
-  align-self: center;
-}
-
-nav li{
-  list-style: none;
-}
-
-.nav {
+/* Header CSS */
+header {
   display: flex;
-  flex-grow: 40;
-  list-style: none;
-}
-
-.nav a{
-  padding: 1em;
-}
-
-.nav li:first-child{
-  display: block;
-}
-
-.nav li{
-  display: none;
-  justify-content: space-between;
-}
-
-.responsive li{
-  display: block;
-  padding: 1em;
-}
-
-.message {
-  text-shadow: 1px 1px 3px white;
-}
-
-section {
-  flex-direction: column;
-  margin: 1em;
-  text-align: center;
-  background-color: #6ba539;
-  border-radius: 1em;
-  padding: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -127,24 +55,57 @@ h2 {
   border-top-left-radius: 0.6em;
 }
 
+.message {
+  flex-basis: 100%;
+}
+
+.logo {
+  width: 15%;
+  height: 15%;
+  align-self: center;
+}
+
+.message {
+  text-shadow: 1px 1px 3px white;
+}
+
 .social {
   padding: 0.25em;
-  align-self: flex-start;
+  justify-content: flex-start;
   width: auto;
   flex-grow: 1;
-  margin: auto;
 }
 
-p {
-  padding-left: 1em;
-  padding-right: 1em;
-  text-align: justify;
+/*Nav CSS*/
+nav li {
+  list-style: none;
 }
 
-.centertext {
-  text-align: center;
+.nav {
+  display: flex;
+  flex-grow: 40;
+  list-style: none;
 }
 
+.nav a {
+  padding: 1em;
+}
+
+.nav li:first-child {
+  display: block;
+}
+
+.nav li {
+  display: none;
+  justify-content: space-between;
+}
+
+.responsive li {
+  display: block;
+  padding: 1em;
+}
+
+/*Nav Links*/
 a:link {
   color: black;
   text-decoration: none;
@@ -166,13 +127,14 @@ a {
   padding: 2.5px;
 }
 
-#date {
-    text-align: center;
-    background-color: #c5e384;
-    border-radius: 0em;
-    margin: 0em;
-    margin-bottom: 1em;
-    flex-basis: 100%;
+/* Section CSS */
+section {
+  flex-direction: column;
+  margin: 1em;
+  text-align: center;
+  background-color: #6ba539;
+  border-radius: 1em;
+  padding: 1em;
 }
 
 section img {
@@ -182,25 +144,112 @@ section img {
   border-bottom-left-radius: 1em;
 }
 
+p {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 1em;
+  background-color: rgb(10, 78, 10);
+  border: none;
+  color: #f0eea3;
+  border: 2px solid #f0eea3;
+  border-radius: 7px;
+}
+
+button:hover{
+  box-shadow: 2px 2px 7px 7px #f0eea3;
+}
+
+/*Hero section*/
 #hero img {
   width: 100%;
   border-bottom-right-radius: 0em;
   border-bottom-left-radius: 0em;
 }
 
-#hero p{
+#hero p {
   text-align: center;
 }
 
-#weather p{
+/*Weather Section*/
+::placeholder {
+  color: rgb(92, 92, 92);
+}
+
+#weather input{
+  width: 25%;
+  margin-left: 1em;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #6ba539;
+}
+
+#weather #tempF{
+  margin-left: 3.75em;
+}
+
+#weather #windchl{
+  margin-left: 2em;
+}
+
+#weather p {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  flex-wrap: wrap;
+}
+
+/* Footer CSS */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  justify-content: center;
+}
+
+footer p {
+  padding: 0px;
+  margin: 0.5em;
+  margin-left: 4em;
+}
+
+h4 {
+  margin-left: 4em;
+}
+
+.footer {
+  flex-basis: 100%;
+  margin-top: 0.5em;
+}
+
+#date {
+  text-align: center;
+  background-color: #c5e384;
+  border-radius: 0em;
   margin: 0em;
+  margin-bottom: 1em;
+  flex-basis: 100%;
 }
 
-#spotlight1 p, #spotlight2 p, #spotlight3 p{
+/*Spotlight CSS*/
+#spotlight1 p,
+#spotlight2 p,
+#spotlight3 p {
   margin: 10px;
+  text-align: center;
 }
 
-#spotlight1, #spotlight2 {
+#spotlight1,
+#spotlight2 {
   border-style: solid;
   border-width: 1px;
   border-radius: 0em;

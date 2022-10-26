@@ -1,44 +1,51 @@
 @media (min-width: 700px) {
-    main{
-        display: flex;
-        flex-direction: column;
-    }
+  /*Main CSS*/
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #hero p{
-        top: 23%;
-      }
-    
-    .spotlight {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: stretch;
-    }
+  /*Hero CSS*/
+  #hero p {
+    top: 23%;
+  }
 
-    #spotlight1, #spotlight2 {
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 0em;
-        margin: 0em;
-    }
 
-    #spotlight1 {
-        border-radius: 1em;
-        border-top-right-radius: 0em;
-        border-bottom-right-radius: 0em;
-        margin-right: 0em;
-        flex-grow: 1;
-    }
 
-    #spotlight2 {
-        border-radius: 1em;
-        border-top-left-radius: 0em;
-        border-bottom-left-radius: 0em;
-        margin-left: 0em;
-        flex-grow: 1;
-    }
 
-    #spotlight3 {
-        display: none;
-    }
+  /*Spotlight CSS*/
+  .spotlight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+  }
+
+  #spotlight1,
+  #spotlight2 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0em;
+    margin: 0em;
+  }
+
+  #spotlight1 {
+    border-radius: 1em;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0em;
+    margin-right: 0em;
+    flex-grow: 1;
+  }
+
+  #spotlight2 {
+    border-radius: 1em;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+    margin-left: 0em;
+    flex-grow: 1;
+  }
+
+  #spotlight3 {
+    display: none;
+  }
 }
