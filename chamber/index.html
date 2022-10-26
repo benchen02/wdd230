@@ -1,134 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Site plan for the Mountain View Chamber of Commerce">
-      <link rel="shortcut icon" href="images/favicon.png">
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/small.css">
-      <link rel="stylesheet" href="css/medium.css">
-      <link rel="stylesheet" href="css/large.css">
+      content="Site plan for the Mountain View Chamber of Commerce"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
     <title>Chamber of Commerce Site Plan</title>
   </head>
   <body>
     <header>
-      <img class="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain-Valley-Logo">
+      <img
+        class="logo"
+        src="images/Mountain-Valley-Logo.png"
+        alt="Mountain-Valley-Logo"
+      />
       <section class="heading">
         <h1>Mountain View</h1>
         <h2>Chamber of Commerce</h2>
       </section>
-        <section id="date"></section>
-        <span class="message"></span>
-        <nav class="nav">
-          <ul>
-            <li><a id="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <a href="https://www.facebook.com/home.php"><img class="social" id="facebook" src="images/Facebook_Logo.png" alt="Facebook_Logo"></a>
-        <a href="https://www.linkedin.com/feed/"><img class="social" id="linkedin" src="images/LinkedIn_Logo.png" alt="LinkedIn_Logo"></a>
+      <section id="date"></section>
+      <span class="message"></span>
+      <nav class="nav">
+        <ul>
+          <li><a id="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="https://www.facebook.com/home.php"
+        ><img
+          class="social"
+          id="facebook"
+          src="images/Facebook_Logo.png"
+          alt="Facebook_Logo"
+      /></a>
+      <a href="https://www.linkedin.com/feed/"
+        ><img
+          class="social"
+          id="linkedin"
+          src="images/LinkedIn_Logo.png"
+          alt="LinkedIn_Logo"
+      /></a>
     </header>
 
-        <main>
+    <main>
+      <section id="hero">
+        <h3>Welcome To The Mountain Valley Chamber of Commerce</h3>
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/temp_hero_img/wdd230-org.png"
+          />
+          <source
+            media="(min-width: 690px)"
+            srcset="images/temp_hero_img/wdd230-org200px.png"
+          />
+          <img
+            src="images/temp_hero_img/wdd230-org100px.png"
+            alt="mountain valley images"
+          />
+        </picture>
+        <div>
+          <p>
+            We welcome you to the Mountain Valley Chamber of Commerce we hope
+            you enjoy your stay
+          </p>
+          <button>Join us now</button>
+        </div>
+      </section>
 
-          <section id="hero">
-            <h3>Welcome To The Mountain Valley Chamber of Commerce</h3>
-            <picture>
-              <source media="(min-width: 1024px)" srcset="images/temp_hero_img/wdd230-org.png">
-              <source media="(min-width: 690px)" srcset="images/temp_hero_img/wdd230-org200px.png">
-              <img src="images/temp_hero_img/wdd230-org100px.png" alt="mountain valley images">
-          </picture>
+      <section id="event">
+        <h3>Event</h3>
+        <img src="images/hiking_event.png" alt="hiking map" />
+        <p>
+          Don't miss out on our hike this Saturday hosted by our local hiking
+          club and explore the various trails we have to offer.
+        </p>
+        <p><a href="#">Click here for more info...</a></p>
+      </section>
+
+      <section id="weather">
+        <h3>Weather</h3>
+        <img src="images/weather_icon.jpg" alt="weather icon" />
+        <p class="temp">
+          Temp: <input type="number" id="tempF" placeholder="33&deg;F" />
+        </p>
+        <p>
+          Wind Speed: <input type="number" id="windspd" placeholder="4mph" />
+        </p>
+        <p>Wind Chill: <span id="windchl"></span></p>
+      </section>
+
+      <section id="join">
+        <h3>Join</h3>
+        <p>Join us and discover the benefits of our business community</p>
+        <button>Join Us</button>
+      </section>
+
+      <section id="news">
+        <h3>News Release</h3>
+        <p>
+          The Spanish Inqisition was not expected. Thousounds of houses checked
+          for contraband. A few owners had swords on display.
+        </p>
+      </section>
+
+      <section class="spotlight">
+        <section id="spotlight1">
+          <h3>Cyber Legacy</h3>
+          <img src="images/computer_logo.png" alt="Cyber Legacy Logo" />
+          <p>"We'll fix any electronics you have, both old and new."</p>
+          <p class="businessContact">info@cyber.com | +1(626)-987-6515</p>
           <div>
-            <p>We welcome you to the Mountain Valley Chamber of Commerce we hope you enjoy your stay</p>
-                <button>Join us now</button>
-              </div>
+            <p><a href="#">cyberlegacy.com</a></p>
+          </div>
         </section>
-        
-            <section id="event">
-                <h3>Event</h3>
-                <img src="images/hiking_event.png" alt="hiking map">
-                <p>Don't miss out on our hike this Saturday hosted by our local hiking club and explore
-                  the various trails we have to offer.</p> 
-                <p><a href="#">Click here for more info...</a></p>
-            </section>
 
-            <section id="weather">
-                <h3>Weather</h3>
-                <img src="images/weather_icon.jpg" alt="weather icon">
-                <p class="temp">Temp: <input type="number" id="tempF" placeholder="33&deg;F"></p>
-                <p>Wind Speed: <input type="number" id="windspd" placeholder="4mph"></p>
-                <p>Wind Chill: <span id="windchl"></span></p>
-            </section>
-
-            <section id="join">
-                <h3>Join</h3>
-                <p>Join us and discover the benefits of our business community</p>
-                <button>Join Us</button>
-            </section>
-
-
-
-            <section id="news">
-                <h3>News Release</h3>
-                <p>The Spanish Inqisition was not expected. Thousounds of houses checked for contraband.
-                  A few owners had swords on display.
-              </p>
-            </section>
-
-        <section class="spotlight">
-            <section id="spotlight1">
-                <h3>Cyber Legacy</h3>
-                <img src="images/computer_logo.png" alt="Cyber Legacy Logo">
-                <p>"We'll fix any electronics you have, both old and new."</p>
-                    <p class="businessContact">info@cyber.com | +1(626)-987-6515</p>
-                    <div><p><a href="#">cyberlegacy.com</a></p></div>
-            </section>
-
-            <section id="spotlight2">
-                <h3>Limitless Hiking Club</h3>
-                <img src="images/hiking_trail.png" alt="Hiking Club Logo">
-                <p>"All are welcome to join our local hiking trials"</p>
-                    <p class="businessContact">trails@hikeclub.com | +1(626)-556-8845</p>
-                    <div><p><a href="#">limitlesshiking.com</a></p></div>
-            </section>
-
-            <section id="spotlight3">
-                <h3>Lively Movers Co.</h3>
-                <img src="images/movers_logo.png" alt="Movers Logo">
-                <p>"Tell us where and we'll help you move."</p>
-                    <p class="businessContact">contact@moversco.com | +1(626)-156-3416</p>
-                    <div><p><a href="#">livelymovers.com</a></p></div>
-            </section>
+        <section id="spotlight2">
+          <h3>Limitless Hiking Club</h3>
+          <img src="images/hiking_trail.png" alt="Hiking Club Logo" />
+          <p>"All are welcome to join our local hiking trials"</p>
+          <p class="businessContact">trails@hikeclub.com | +1(626)-556-8845</p>
+          <div>
+            <p><a href="#">limitlesshiking.com</a></p>
+          </div>
         </section>
-        </main>
+
+        <section id="spotlight3">
+          <h3>Lively Movers Co.</h3>
+          <img src="images/movers_logo.png" alt="Movers Logo" />
+          <p>"Tell us where and we'll help you move."</p>
+          <p class="businessContact">contact@moversco.com | +1(626)-156-3416</p>
+          <div>
+            <p><a href="#">livelymovers.com</a></p>
+          </div>
+        </section>
+      </section>
+    </main>
 
     <footer>
-        <img class="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain Valley Logo">
-    <div class="address">
+      <img
+        class="logo"
+        src="images/Mountain-Valley-Logo.png"
+        alt="Mountain Valley Logo"
+      />
+      <div class="address">
         <h4>Mountain Valley Chamber of Commerce</h4>
         <p>321 S. New Avenue</p>
         <p>San Gabriel, California 91776</p>
-    </div>
+      </div>
 
-    <div class="contact">
+      <div class="contact">
         <p>moreinfo@mtvalleycc.org</p>
         <p>+1(626)-123-456</p>
         <p class="map">Map Link</p>
-    </div>
+      </div>
 
-    <div class="footer">
-        &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson Chen | WDD 230 Project |
-        Last Updated: <span id="currentdate"></span>
-    </div>
+      <div class="footer">
+        &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson
+        Chen | WDD 230 Project | Last Updated: <span id="currentdate"></span>
+      </div>
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/message.js"></script>
