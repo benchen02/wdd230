@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Benson Chen's WDD 230 Assignment Home page"
+    />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Lazy Load</title>
+  </head>
+  <body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+
+    <main>
+        <picture><img src="images/placeholder.png" data-src="images/dog.png" alt="dog"></picture>
+        <picture><img src="images/placeholder.png" data-src="images/ship.png" alt="ship"></picture>
+        <picture><img src="images/placeholder.png" data-src="images/flower.png" alt="flower"></picture>
+        <picture><img src="images/placeholder.png" data-src="images/sun.png" alt="sun"></picture>
+        <picture><img src="images/placeholder.png" data-src="images/bird.png" alt="bird"></picture>
+        <picture><img src="images/placeholder.png" data-src="images/bridge.png" alt="bridge"></picture>
+    </main>
+
+    <footer>
+      <div>&copy; <span id="currentyear"></span> | Benson Chen | California</div>
+      <div>Last Updated: <span id='lastmodfulldate'></span></div>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/lazyload.js"></script>
+  </body>
+</html>

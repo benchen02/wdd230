@@ -4,7 +4,6 @@ input::-webkit-inner-spin-button {
   appearance: none;
 }
 
-
 /* Fonts */
 h1,
 h2 {
@@ -69,35 +68,32 @@ h2 {
   text-shadow: 1px 1px 3px white;
 }
 
-.social {
-  padding: 0.25em;
-  justify-content: flex-start;
-  width: auto;
-  flex-grow: 1;
-}
-
 /*Nav CSS*/
-nav li {
-  list-style: none;
-}
-
 .nav {
   display: flex;
-  flex-grow: 40;
   list-style: none;
+  flex-basis: 100%;
 }
 
-.nav a {
+nav li a {
   padding: 1em;
+}
+
+nav div {
+  padding: 1.5em;
+  text-align: right;
+  flex-grow: 1;
 }
 
 .nav li:first-child {
   display: block;
+  padding: 1em;
 }
 
 .nav li {
   display: none;
   justify-content: space-between;
+  text-align: left;
 }
 
 .responsive li {
@@ -120,11 +116,8 @@ a:hover {
   background-color: #c5e384;
 }
 
-a {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: fit-content;
-  padding: 2.5px;
+div a:hover {
+  background-color: red;
 }
 
 /* Section CSS */
@@ -150,7 +143,7 @@ p {
   text-align: justify;
 }
 
-button{
+button {
   padding: 10px 20px;
   margin: 1em;
   background-color: rgb(10, 78, 10);
@@ -160,7 +153,7 @@ button{
   border-radius: 7px;
 }
 
-button:hover{
+button:hover {
   box-shadow: 2px 2px 7px 7px #f0eea3;
 }
 
@@ -180,7 +173,7 @@ button:hover{
   color: rgb(92, 92, 92);
 }
 
-#weather input{
+#weather input {
   width: 25%;
   margin-left: 1em;
   border: none;
@@ -188,11 +181,11 @@ button:hover{
   background-color: #6ba539;
 }
 
-#weather #tempF{
+#weather #tempF {
   margin-left: 3.75em;
 }
 
-#weather #windchl{
+#weather #windchl {
   margin-left: 2em;
 }
 

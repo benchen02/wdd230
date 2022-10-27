@@ -1,4 +1,9 @@
 @media (min-width: 1024px) {
+  /*Header CSS*/
+  .message {
+    margin: 1em;
+  }
+
   /*Nav CSS*/
   .nav li:first-child {
     display: none;
@@ -11,22 +16,13 @@
   ul {
     display: flex;
     flex-direction: row;
-    padding: 1px;
     margin: 1em;
-    justify-content: flex-start;
-    justify-content: space-between;
   }
 
-  .nav a {
-    padding: 1em;
-    justify-content: space-around;
+  nav div{
+    padding: 0.5em;
   }
-
-  .social {
-    padding: 0.25em;
-    align-self: center;
-    justify-content: flex-end;
-  }
+  
 
   /*Main CSS*/
   main {
