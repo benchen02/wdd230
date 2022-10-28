@@ -12,7 +12,7 @@ function calcwindspeed(event){
     const windspd = parseInt(windspdinput.value);
 
     if (tempF <= 50 && windspd > 3) {
-       result = Math.round((35.74+(0.6215*tempF)-(35.75*(windspd^0.16))+(0.4275 *tempF*(windspd^0.16)))*100)/100;
+       result = Math.round((35.74 + (0.6215 * tempF))-(35.75 * Math.pow(windspd,0.16)) + (0.4275*tempF*Math.pow(windspd,0.16))*100)/100;
     } else if (tempF >= 50 && windspd < 3) {
         result = 'N/A';
     } else {
