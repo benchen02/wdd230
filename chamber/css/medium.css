@@ -45,4 +45,17 @@
   #spotlight3 {
     display: none;
   }
+
+  /*Discover CSS*/
+  .discover {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discover p{
+    padding-top: 0.5%;
+    padding-left: 5%;
+    float: left;
+    width: 50%;
+  }
 }

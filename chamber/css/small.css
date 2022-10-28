@@ -196,6 +196,14 @@ button:hover {
   flex-wrap: wrap;
 }
 
+/*Discover CSS*/
+.discover img{
+  min-width: 10px;
+  min-height: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
 /* Footer CSS */
 footer {
   display: flex;

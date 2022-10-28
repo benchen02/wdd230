@@ -17,33 +17,43 @@
 <body>
 
     <header>
-        <picture class="logo">
-            <img src="images/Mountain-Valley-Logo.png" alt="Mountain Valley Logo">
-        </picture>
-        <section class="heading">
-            <h1>The Mountain Valley</h1>
-            <h2>Chamber of Commerce</h2>
-        </section>
-        <nav class="nav">
-            <ul>
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="social">
-            <a href="https://www.facebook.com">
-                <img src="images/Facebook_Logo.png" alt="FaceBook Logo">
-            </a>
-            <a href="https://www.linkedin.com">
-                <img src="images/LinkedIn_Logo.png" alt="LinkedIn Logo">
-            </a>
-        </div>
-        <span id="date"></span>
-        <span class="message"></span>
+        <img
+        class="logo"
+        src="images/Mountain-Valley-Logo.png"
+        alt="Mountain-Valley-Logo"
+      />
+      <section class="heading">
+        <h1>Mountain View</h1>
+        <h2>Chamber of Commerce</h2>
+      </section>
+      <section id="date"></section>
+      <span class="message"></span>
+      <nav class="nav">
+        <ul>
+          <li><a id="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div>
+        <a href="https://www.facebook.com/home.php"
+        ><img
+          class="social"
+          id="facebook"
+          src="images/Facebook_Logo.png"
+          alt="Facebook_Logo"
+      /></a>
+      <a href="https://www.linkedin.com/feed/"
+        ><img
+          class="social"
+          id="linkedin"
+          src="images/LinkedIn_Logo.png"
+          alt="LinkedIn_Logo"
+      /></a>
+    </div>
+      </nav>
     </header>
 
     <main class="discover">
@@ -114,24 +124,27 @@
     </main>
 
     <footer>
-        <picture class="logo">
-            <img src="images/mountain_valley_logo/mountain_valley_logo.webp" alt="Mountain Valley Logo">
-        </picture>
-        <div class="address">
-            <h4>Mountain Valley Chamber of Commerce</h4>
-            <p>321 S. New Avenue</p>
-            <p>San Gabriel, California 91776</p>
-        </div>
+        <img
+        class="logo"
+        src="images/Mountain-Valley-Logo.png"
+        alt="Mountain Valley Logo"
+      />
+      <div class="address">
+        <h4>Mountain Valley Chamber of Commerce</h4>
+        <p>321 S. New Avenue</p>
+        <p>San Gabriel, California 91776</p>
+      </div>
 
-        <div class="contact">
-            <p>moreinfo@mtvalleycc.org</p>
-            <p>+1(626)-123-456</p>
-            <p class="map">Map Link</p>
-        </div>
+      <div class="contact">
+        <p>moreinfo@mtvalleycc.org</p>
+        <p>+1(626)-123-456</p>
+        <p class="map">Map Link</p>
+      </div>
 
+      <div class="footer">
         &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson
         Chen | WDD 230 Project | Last Updated: <span id="currentdate"></span> | <span id="daySince"></span>
-        </div>
+      </div>
         <script src="js/date.js"></script>
         <script src="js/menu.js"></script>
         <script src="js/message.js"></script>
