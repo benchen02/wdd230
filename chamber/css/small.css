@@ -198,10 +198,21 @@ button:hover {
 
 /*Discover CSS*/
 .discover img{
-  min-width: 10px;
-  min-height: 10px;
+  max-width: 300px;
+  max-height: 200px;
+  min-width: 185px;
+  min-height: 123px;
   margin: 10px;
   margin-bottom: 20px;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+
+#clocktower{
+  max-width: 300px;
+  max-height: 444px;
+  min-width: 185px;
+  min-height: 274px;
 }
 
 /* Footer CSS */
