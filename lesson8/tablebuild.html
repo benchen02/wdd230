@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Benson Chen's WDD 230 Assignment Home page"
+    />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Table</title>
+  </head>
+  <body>
+    <header>
+        <h1>Table build</h1>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Sales</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Month</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>$3,000</td>
+                </tr>
+                <tr>
+                    <td>Augest</td>
+                    <td>$8,000</td>
+                </tr>
+                <tr>
+                    <td>September</td>
+                    <td>$4,000</td>
+                </tr>
+                <tr>
+                    <td>October</td>
+                    <td>$3,000</td>
+                </tr>
+                <tr>
+                    <td>November</td>
+                    <td>$2,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="2">Table 1: Wasatch Sales</td>
+            </tfoot>
+        </table>
+        
+    </main>
+
+    <footer>
+      <div>&copy; <span id="currentyear"></span> | Benson Chen | California</div>
+      <div>Last Updated: <span id='lastmodfulldate'></span></div>
+    </footer>
+    <script src="js/date.js"></script>
+  </body>
+</html>
