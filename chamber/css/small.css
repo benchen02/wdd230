@@ -303,7 +303,7 @@ div{
 }
 
 #submit{
-  padding: 10px 20px;
+  padding: 20px 50px;
   margin: 5px;
   background-color: rgb(10, 78, 10);
   color: #f0eea3;
@@ -314,4 +314,19 @@ div{
 
 #submit:hover {
   box-shadow: 2px 2px 7px 7px #f0eea3;
+}
+
+form fieldset{
+  border-color: #f0eea3;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+legend{
+  margin-left: 1em;
+}
+
+.join span{
+  color: #f0eea3;
 }
