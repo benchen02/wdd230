@@ -13,7 +13,8 @@ h2 {
 
 h3,
 h4,
-p {
+p,
+label {
   font-family: "Roboto", sans-serif;
 }
 
@@ -141,6 +142,10 @@ p {
   padding-left: 1em;
   padding-right: 1em;
   text-align: justify;
+}
+
+#thanks{
+  text-align: center;
 }
 
 button {
@@ -282,4 +287,31 @@ h4 {
 
 #spotlight3 {
   display: none;
+}
+
+/*Join CSS*/
+.join section{
+  text-align: left;
+}
+
+input, textarea{
+  margin-top: 5px;
+}
+
+div{
+  padding: 5px;
+}
+
+#submit{
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: rgb(10, 78, 10);
+  color: #f0eea3;
+  border: 2px solid #f0eea3;
+  border-radius: 7px;
+  justify-self: center;
+}
+
+#submit:hover {
+  box-shadow: 2px 2px 7px 7px #f0eea3;
 }

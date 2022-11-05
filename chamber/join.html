@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="In progress The Mountain Valley Chamber of Commerce site" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <title>The Mountain Valley Chamber of Commerce</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain-Valley-Logo" />
+        <section class="heading">
+            <h1>Mountain View</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        <section id="date"></section>
+        <span class="message"></span>
+        <nav class="nav">
+            <ul>
+                <li><a id="menu" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div>
+                <a href="https://www.facebook.com/home.php"><img class="social" id="facebook"
+                        src="images/Facebook_Logo.png" alt="Facebook_Logo" /></a>
+                <a href="https://www.linkedin.com/feed/"><img class="social" id="linkedin"
+                        src="images/LinkedIn_Logo.png" alt="LinkedIn_Logo" /></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="join">
+
+        <section class="joinSection">
+            <form action="thankyou.html">
+                <div class="businfo">
+                <div class="name">
+                    <label for="fname">First Name: </label>
+                    <br><input type="text" name="fname" id="fname" required></br>
+                </div>
+
+                <div class="name">
+                    <label for="lname">Last Name:</label>
+                    <br><input type="text" name="lname" id="lname" required></br>
+                </div>
+
+                <div class="bposition">
+                    <label for="position">Business Position:</label>
+                    <br><input type="text" name="position" id="position"></br>
+                </div>
+
+                <div class="bemail">
+                    <label for="email">Email:</label>
+                    <br><input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required></br>
+                </div>
+
+                <div class="cell">
+                    <label for="phone">Cell Number:</label>
+                    <br><input type="tel" name="phone" id="phone" placeholder="(888)-888-8888" required></br>
+                </div>
+
+                <div class="btitle">
+                    <label for="bname">Business Name:</label>
+                    <br><input type="text" name="bname" id="bname"></br>
+                </div>
+                </div>
+
+                <div class="membership">
+                    <label for="membership">Choose your Memebrship Level:</label>
+                    <div>
+                        <input type="radio" name="membership" id="NP">
+                        <label for="NP">NP Membership is for non profit organizations and there is no fee.</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="membership" id="bronze">
+                        <label for="bronze">Bronze Memebrship</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="membership" id="silver">
+                        <label for="silver">Silver Membership</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="membership" id="gold">
+                        <label for="gold">Gold Memebership</label>
+                    </div>
+                </div>
+
+                <div class="bdescription">
+                    <label for="description">Business Description: </label>
+                    <br><textarea name="description" id="description" cols="50" rows="6"></textarea></br>
+                </div>
+
+                <input type="hidden" name="datetime" id="hiddendate">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="logo" src="images/Mountain-Valley-Logo.png" alt="Mountain Valley Logo" />
+        <div class="address">
+            <h4>Mountain Valley Chamber of Commerce</h4>
+            <p>321 S. New Avenue</p>
+            <p>San Gabriel, California 91776</p>
+        </div>
+
+        <div class="contact">
+            <p>moreinfo@mtvalleycc.org</p>
+            <p>+1(626)-123-456</p>
+            <p class="map">Map Link</p>
+        </div>
+
+        <div class="footer">
+            &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson
+            Chen | WDD 230 Project | Last Updated: <span id="currentdate"></span>
+        </div>
+        <script src="js/date.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/message.js"></script>
+    </footer>
+</body>
+
+</html>

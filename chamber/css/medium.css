@@ -1,6 +1,6 @@
 @media (min-width: 700px) {
   /*Main CSS*/
-  main {
+  main.home {
     display: flex;
     flex-direction: column;
   }
@@ -57,5 +57,11 @@
     padding-left: 5%;
     float: left;
     width: 50%;
+  }
+
+  /*Join CSS*/
+  form{
+    display: flex;
+    flex-direction: column;
   }
 }

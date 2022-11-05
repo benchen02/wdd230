@@ -19,4 +19,4 @@ if (daysVisit == 0){
 
 currentdate = Number(window.localStorage.setItem("visits-ls", Date.now()));
 daySince.textContent = ` It's been ${Math.round(Math.abs(dayTotal))} 
-Days, ${Math.round(Math.abs(dayhour))} hours, and ${Math.round(Math.abs(dayMin))} min since you last visted.`;
+Day(s), ${Math.round(Math.abs(dayhour))} hours, and ${Math.round(Math.abs(dayMin))} min since you last visted.`;
