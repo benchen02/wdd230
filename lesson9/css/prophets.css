@@ -1,0 +1,35 @@
+header,
+footer {
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #009845;
+}
+
+body {
+    background-color: #f0eea3;
+  }
+
+div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    text-align: center;
+    margin: 1em;
+    background-color: #6ba539;
+    border-radius: 1em;
+    padding: 1em;
+  }
+
+  img {
+    max-width: 325px;
+    height: 300px;
+    border: 1px solid #333;
+  }
+
+  img:hover {
+    box-shadow: 2px 2px 7px 7px #f0eea3;
+  }
