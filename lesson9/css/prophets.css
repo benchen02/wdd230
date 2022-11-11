@@ -1,3 +1,13 @@
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+  margin: 0em;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+}
+
 header,
 footer {
   margin: 1em;
@@ -9,6 +19,23 @@ footer {
 
 body {
     background-color: #f0eea3;
+    width: auto;
+  }
+
+  header,
+  footer,
+  main {
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  main{
+    background-color: green;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgb(102, 102, 102);
   }
 
 div{
@@ -22,12 +49,13 @@ section {
     background-color: #6ba539;
     border-radius: 1em;
     padding: 1em;
+    box-shadow: 5px 5px 7px #3f3e2b;
   }
 
   img {
     max-width: 325px;
     height: 300px;
-    border: 1px solid #333;
+    border: 1px solid rgb(92, 92, 92);
   }
 
   img:hover {
