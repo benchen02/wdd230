@@ -1,6 +1,6 @@
 const requestURL =
   "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/json/data.json";
-const cards = document.querySelector(".grid");
+const cards = document.querySelector(".items");
 
 async function getInfo (){
     const response = await fetch (requestURL);

@@ -335,3 +335,22 @@ legend{
 .join span{
   color: #f0eea3;
 }
+
+/*Directory CSS*/
+/* .directory div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+} */
+
+.directory section h4, .directory section p{
+  text-align: center;
+  margin-left: 0px;
+}
+
+.directory section section{
+  background-color: forestgreen;
+}
+
+/* .directory img{
+  min-width: 300px;
+} */
