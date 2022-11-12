@@ -8,8 +8,33 @@
             "zip": "50266",
             "phone": "(319) 754-8608",
             "siteURL": "https://cyberlegacy.com/",
-            "imgURL": " ",
+            "imgURL": "",
             "membership": "gold"
+        },
+
+        {
+            "name": "Limitless Hiking Club",
+            "street": "3990 Tampa Rd",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 423-8215",
+            "siteURL": "https://limitlesshiking.com/",
+            "imgURL": "",
+            "membership": "NP"
+        },
+
+        {
+            "name": "Lively Movers Co.",
+            "street": "4006 S Lamar Blvd",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 393-9595",
+            "siteURL": "https://limitlesshiking.com/",
+            "imgURL": "",
+            "membership": "Silver"
         }
+
     ]
 }
