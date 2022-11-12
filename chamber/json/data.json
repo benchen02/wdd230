@@ -8,7 +8,7 @@
             "zip": "50266",
             "phone": "(319) 754-8608",
             "siteURL": "https://cyberlegacy.com/",
-            "imgURL": "",
+            "imgURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/computer_logo.png",
             "membership": "gold"
         },
 
@@ -20,7 +20,7 @@
             "zip": "50266",
             "phone": "(319) 423-8215",
             "siteURL": "https://limitlesshiking.com/",
-            "imgURL": "",
+            "imgURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/hiking_trail.png",
             "membership": "NP"
         },
 
@@ -32,7 +32,7 @@
             "zip": "50266",
             "phone": "(319) 393-9595",
             "siteURL": "https://limitlesshiking.com/",
-            "imgURL": "",
+            "imgURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/movers_logo.png",
             "membership": "Silver"
         }
 
