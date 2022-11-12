@@ -31,6 +31,7 @@ function displayInfo(business){
     );
     logo.setAttribute("loading", "lazy");
     site.setAttribute("href", business.siteURL);
+    card.setAttribute("class", 'card')
 
     //Append section with information
     card.appendChild(logo);

@@ -64,4 +64,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  /*Directory CSS*/
+  /*List View*/
+  .list section.card{
+    flex-direction: row;
+  }
 }
