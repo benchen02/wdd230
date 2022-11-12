@@ -11,4 +11,4 @@ datefield.innerHTML = fulldate;
 
 const hiddenDateField = document.querySelector("#hiddendate");
 const visitDate = Date(window.localStorage.getItem("visitdate"));
-hiddenDateField.textContent = visitDate;
+hiddenDateField.innerHTML = visitDate;
