@@ -1,0 +1,15 @@
+{
+    "business": [
+        {
+            "name": "Cyber Legacy",
+            "street": "1010 SE Stark St",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 754-8608",
+            "siteURL": "https://cyberlegacy.com/",
+            "imgURL": " ",
+            "membership": "gold"
+        }
+    ]
+}
