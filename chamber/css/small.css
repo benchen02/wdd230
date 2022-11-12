@@ -361,10 +361,18 @@ legend{
   justify-self: center;
 }
 
+.list section.card h4{
+  margin-left: 4em;
+}
+
+.list section.card a{
+  margin-right: 4em;
+}
+
 /*General View*/
 .directory section h4, .directory section p{
   text-align: center;
-  margin-left: 0px;
+  margin-left: 0em;
 }
 
 .directory section.card{
