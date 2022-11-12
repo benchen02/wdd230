@@ -8,8 +8,8 @@
             "zip": "50266",
             "phone": "(319) 754-8608",
             "siteURL": "https://cyberlegacy.com/",
-            "imgURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/computer_logo.png",
-            "membership": "gold"
+            "logoURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/computer_logo.png",
+            "membership": "Gold"
         },
 
         {
@@ -20,7 +20,7 @@
             "zip": "50266",
             "phone": "(319) 423-8215",
             "siteURL": "https://limitlesshiking.com/",
-            "imgURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/hiking_trail.png",
+            "logoURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/hiking_trail.png",
             "membership": "NP"
         },
 
@@ -32,8 +32,92 @@
             "zip": "50266",
             "phone": "(319) 393-9595",
             "siteURL": "https://limitlesshiking.com/",
-            "imgURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/movers_logo.png",
+            "logoURL": "https://raw.githubusercontent.com/benchen02/wdd230/master/chamber/images/movers_logo.png",
             "membership": "Silver"
+        },
+
+        {
+            "name": "Jade Jewlers",
+            "street": "4200 W Memorial Rd #101",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 244-3277 ",
+            "siteURL": "https://jadejewlers.com/",
+            "logoURL": " ",
+            "membership": "Gold"
+        },
+
+        {
+            "name": "General Hardware",
+            "street": "1013 S Air Depot Blvd",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 423-8215",
+            "siteURL": "https://generalhardware.com/",
+            "logoURL": " ",
+            "membership": "Gold"
+        },
+
+        {
+            "name": "Langworth's Law Firm",
+            "street": "2005 W Court St",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 213-0170 ",
+            "siteURL": "https://langworthlaw.com/",
+            "logoURL": " ",
+            "membership": "Silver"
+        },
+
+        {
+            "name": "Fresh Foods Warehouse",
+            "street": "5000 S Western St",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319)  232-7220 ",
+            "siteURL": "https://freshfoods.com/",
+            "logoURL": " ",
+            "membership": "NP"
+        },
+
+        {
+            "name": "Busy Bodies Construction",
+            "street": "6944 N Teutonia Ave",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 232-9075",
+            "siteURL": "https://busybodies.com/",
+            "logoURL": " ",
+            "membership": "Bronze"
+        },
+
+        {
+            "name": "Green Power Co.",
+            "street": "6944 N Teutonia Ave",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 393-9595",
+            "siteURL": "https://greenpower.com/",
+            "logoURL": " ",
+            "membership": "Bronze"
+        },
+
+        {
+            "name": "Helping Hands, Healthier Community",
+            "street": "4708 E Bighorn Ave",
+            "city": "Mt Valley",
+            "state": "ID",
+            "zip": "50266",
+            "phone": "(319) 351-2327",
+            "siteURL": "https://helpinghands.com/",
+            "logoURL": " ",
+            "membership": "NP"
         }
 
     ]
