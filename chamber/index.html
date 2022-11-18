@@ -97,14 +97,11 @@
 
       <section id="weather">
         <h3>Weather</h3>
-        <img src="images/weather_icon.jpg" alt="weather icon" />
-        <p class="temp">
-          Temp: <input type="number" id="tempF" placeholder="33&deg;F" />
-        </p>
-        <p>
-          Wind Speed: <input type="number" id="windspd" placeholder="4mph" />
-        </p>
-        <p>Wind Chill: <span id="windchl"></span></p>
+        <img src="" alt="weather icon" id="icon" />
+        <p><strong><span id="tempF"></span></strong></p>
+        <p id="desc"><span id="desc"></span></p>
+        <p id="windspd">Wind Speed: <span id="windspd"></span></p>
+        <p id="windchl">Wind Chill: <span id="windchl"></span></p>
       </section>
 
       <section id="join">
@@ -176,6 +173,7 @@
         &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson
         Chen | WDD 230 Project | Last Updated: <span id="currentdate"></span>
       </div>
+      <div>Weather API brought to you by <a href="https://openweathermap.org">https://openweathermap.org</a></div>
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/message.js"></script>
