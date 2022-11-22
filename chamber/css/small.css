@@ -434,3 +434,16 @@ legend{
   justify-content: center;
   flex-wrap: wrap;
 }
+
+#contactset p{
+  font-size: 15px;
+  margin: 10px;
+}
+
+#contactset div{
+  font-size: 20px;
+}
+
+#contactset legend{
+  font-size: 17px;
+}
