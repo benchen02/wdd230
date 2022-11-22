@@ -242,6 +242,10 @@ p#windspd{
   border-bottom-right-radius: 0em;
 }
 
+.discover img:hover{
+  box-shadow: 2px 2px 7px 7px #f0eea3;
+}
+
 #clocktower{
   max-width: 300px;
   max-height: 444px;
