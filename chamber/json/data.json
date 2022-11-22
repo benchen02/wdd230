@@ -2,6 +2,7 @@
     "business": [
         {
             "name": "Cyber Legacy",
+            "phrase": "We'll fix any electronics you have, both old and new.",
             "street": "1010 SE Stark St",
             "city": "Mt Valley",
             "state": "ID",
@@ -14,6 +15,7 @@
 
         {
             "name": "Limitless Hiking Club",
+            "phrase": "All are welcome to join our local hiking trials",
             "street": "3990 Tampa Rd",
             "city": "Mt Valley",
             "state": "ID",
@@ -26,6 +28,7 @@
 
         {
             "name": "Lively Movers Co.",
+            "phrase": "Tell us where and we'll help you move.",
             "street": "4006 S Lamar Blvd",
             "city": "Mt Valley",
             "state": "ID",
@@ -38,6 +41,7 @@
 
         {
             "name": "Jade Jewlers",
+            "phrase": "Quality Imported Gems and Jewels",
             "street": "4200 W Memorial Rd #101",
             "city": "Mt Valley",
             "state": "ID",
@@ -50,6 +54,7 @@
 
         {
             "name": "General Hardware",
+            "phrase": "If there's anything you need, we'll have it.",
             "street": "1013 S Air Depot Blvd",
             "city": "Mt Valley",
             "state": "ID",
@@ -62,6 +67,7 @@
 
         {
             "name": "Langworth's Law Firm",
+            "phrase": "Opened since 1980",
             "street": "2005 W Court St",
             "city": "Mt Valley",
             "state": "ID",
@@ -74,6 +80,7 @@
 
         {
             "name": "Fresh Foods Warehouse",
+            "phrase": "Come empty, leave full",
             "street": "5000 S Western St",
             "city": "Mt Valley",
             "state": "ID",
@@ -86,6 +93,7 @@
 
         {
             "name": "Busy Bodies Construction",
+            "phrase": "YOu ask, we build",
             "street": "6944 N Teutonia Ave",
             "city": "Mt Valley",
             "state": "ID",
@@ -98,6 +106,7 @@
 
         {
             "name": "Green Power Co.",
+            "phrase": "There's nothing wrong with going green.",
             "street": "6944 N Teutonia Ave",
             "city": "Mt Valley",
             "state": "ID",
@@ -110,6 +119,7 @@
 
         {
             "name": "Helping Hands, Healthier Community",
+            "phrase": "We're open to help anyone in need",
             "street": "4708 E Bighorn Ave",
             "city": "Mt Valley",
             "state": "ID",
