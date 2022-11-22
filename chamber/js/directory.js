@@ -5,6 +5,7 @@ const cards = document.querySelector(".items");
 async function getInfo (){
     const response = await fetch (requestURL);
     const data = await response.json();
+    console.log(data);
     data.business.forEach(business => { displayInfo(business)  });
 }
 
