@@ -113,5 +113,11 @@
   }
 
   /*Contact CSS*/
+  #contactset{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 4em;
+    margin-right: 4em;
+  }
 }
 
