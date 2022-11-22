@@ -368,8 +368,8 @@ legend{
 /*Directory CSS*/
 /*Grid View*/
 .items{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  display: flex;
+  flex-direction: column;
 }
 
 /*List View*/
@@ -391,7 +391,7 @@ legend{
 }
 
 .list section.card h4{
-  margin-left: 4em;
+  margin-left: 0em;
 }
 
 .list section.card a{
@@ -414,6 +414,10 @@ legend{
 
 .directory a {
   padding: 10px;
+}
+
+.directory section.card p {
+  flex-wrap: wrap;
 }
 
 /*Contact CSS*/

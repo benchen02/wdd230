@@ -65,9 +65,19 @@
   }
 
   /*Directory CSS*/
+  /*Grid View*/
+  .items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+  
   /*List View*/
   .list section.card{
     flex-direction: row;
+  }
+
+  .list section.card h4{
+    margin-left: 4em;
   }
 
   /*Contact CSS*/
