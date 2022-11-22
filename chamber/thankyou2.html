@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site plan for the Mountain View Chamber of Commerce">
+    <meta name="description" content="In progress The Mountain Valley Chamber of Commerce site">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
-    <title>Chamber of Commerce Site Plan</title>
-  </head>
-  <body>
+    <title>The Mountain Valley Chamber of Commerce</title>
+</head>
+
+<body>
+
     <header>
-      <img
+        <img
         class="logo"
         src="images/Mountain-Valley-Logo.png"
         alt="Mountain-Valley-Logo"
@@ -53,68 +56,11 @@
       </nav>
     </header>
 
-    <main class="home">
-      <section id="hero">
-        <h3>Welcome To The Mountain Valley Chamber of Commerce</h3>
-        <picture>
-          <source
-            media="(min-width: 1024px)"
-            srcset="images/hero_img/Hero_Image.webp"
-          />
-          <source
-            media="(min-width: 690px)"
-            srcset="images/hero_img/Hero_Image_mid.webp"
-          />
-          <img
-            src="images/hero_img/Hero_Image_small.webp"
-            alt="mountain valley images"
-          />
-        </picture>
-        <div>
-          <p>
-            We welcome you to the Mountain Valley Chamber of Commerce we hope
-            you enjoy your stay
-          </p>
-          <button><a href="join.html" class="button">Join us now</button></a>
-        </div>
-      </section>
+    <main class="join">
 
-      <section id="event">
-        <h3>Event</h3>
-        <img src="images/hiking_event.png" alt="hiking map" />
-        <p>
-          Don't miss out on our hike this Saturday hosted by our local hiking
-          club and explore the various trails we have to offer.
-        </p>
-        <p><a href="#">Click here for more info...</a></p>
-      </section>
-
-      <section id="weather">
-        <h3>Weather</h3>
-        <img src="" alt="weather icon" id="icon" />
-        <p><strong><span id="tempF"></span></strong></p>
-        <p id="desc"><span id="desc"></span></p>
-        <p id="windspd">Wind Speed: <span id="windspd"></span></p>
-        <p id="windchl">Wind Chill: <span id="windchl"></span></p>
-      </section>
-
-      <section id="join">
-        <h3>Join</h3>
-        <p>Join us and discover the benefits of our business community</p>
-        <button><a href="join.html" class="button">Join us</button></a>
-      </section>
-
-      <section id="news">
-        <h3>News Release</h3>
-        <p>
-          The Spanish Inqisition was not expected. Thousounds of houses checked
-          for contraband. A few owners had swords on display.
-        </p>
-      </section>
-
-      <section class="spotlight">
-
-      </section>
+        <section class="mainSection">
+          <p id="thanks">Thank you for contacting us, we will get back to you as soon as possibele.</p>
+        </section>
     </main>
 
     <footer>
@@ -139,12 +85,10 @@
         &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson
         Chen | WDD 230 Project | Last Updated: <span id="currentdate"></span>
       </div>
-      <div>Weather API brought to you by <a href="https://openweathermap.org">https://openweathermap.org</a></div>
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/message.js"></script>
-      <script src="js/windchill.js"></script>
-      <script src="js/spotlight.js"></script>
     </footer>
-  </body>
+</body>
+
 </html>

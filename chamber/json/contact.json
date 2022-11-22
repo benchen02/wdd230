@@ -1,0 +1,38 @@
+{
+    "contact":[
+        {
+            "name": "Kapil Eli",
+            "title": "Marketing President",
+            "phone": "208-351-8806",
+            "ext": "100"
+        },
+
+        {
+            "name": "Mansur Gudrun",
+            "title": "Business Director",
+            "phone": "208-359-0425",
+            "ext": "101"
+        },
+
+        {
+            "name": "Viktoriya Nellie",
+            "title": "Bookeeper",
+            "phone": "208-390-8108",
+            "ext": "102"
+        },
+
+        {
+            "name": "Jonna Dries",
+            "title": "Events and Communications Director",
+            "phone": "208-656-1017",
+            "ext": "103"
+        },
+
+        {
+            "name": "Kallisto Nita",
+            "title": "President/CEO",
+            "phone": "208-356-0082",
+            "ext": "104"
+        }
+    ]
+}
