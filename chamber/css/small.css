@@ -447,12 +447,15 @@ legend{
 }
 
 #contactset p{
-  font-size: 15px;
   margin: 10px;
 }
 
 #contactset div{
   font-size: 20px;
+}
+
+#contactset span{
+  font-size: 23px;
 }
 
 #contactset legend{
