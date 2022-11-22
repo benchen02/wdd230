@@ -1,9 +1,9 @@
 // Variables for tempurature, wind speed, wind chill, weather icon, and weather description.
 const tempF = document.querySelector('#tempF');
-const windspd = document.querySelector('#windspd');
-const windchill = document.querySelector('#windchl');
+const windspd = document.querySelector('#windspeed');
+const windchill = document.querySelector('#windchill');
 const icon = document.querySelector('#icon');
-const description = document.querySelector('#desc');
+const description = document.querySelector('#description');
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Rexburg&units=imperial&APPID=6a11094bbff7a2a4374e1a946eca61c8"
 
