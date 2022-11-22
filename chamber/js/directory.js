@@ -23,7 +23,7 @@ function displayInfo(business){
     address.textContent = `${business.street} ${business.city} ${business.state} ${business.zip}`;
     phone.textContent = `${business.phone}`
     site.innerHTML = business.siteURL;
-    phrase.innerHTML = business.phrase;
+    phrase.innerHTML = `"${business.phrase}"`;
 
     //Building attrubutes for img and link
     logo.setAttribute("src", business.logoURL);
