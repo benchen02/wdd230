@@ -18,15 +18,14 @@
     align-content: stretch;
   }
 
-  #spotlight1,
-  #spotlight2 {
+ .spotlight .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 0em;
     margin: 0em;
   }
 
-  #spotlight1 {
+  .spotlight .card:first-child {
     border-radius: 1em;
     border-top-right-radius: 0em;
     border-bottom-right-radius: 0em;
@@ -34,7 +33,7 @@
     flex-grow: 1;
   }
 
-  #spotlight2 {
+  .spotlight .card:nth-child(2) {
     border-radius: 1em;
     border-top-left-radius: 0em;
     border-bottom-left-radius: 0em;
@@ -42,7 +41,7 @@
     flex-grow: 1;
   }
 
-  #spotlight3 {
+  .spotlight .card:nth-child(3) {
     display: none;
   }
 

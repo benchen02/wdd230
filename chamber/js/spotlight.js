@@ -28,8 +28,8 @@ const URL =
     //Change respective textcontent to contain business name, full address, and phone number
     h4.textContent = `${randomBusiness.name}`;
     address.textContent = `${randomBusiness.street} ${randomBusiness.city} ${randomBusiness.state} ${randomBusiness.zip}`;
-    phone.textContent = `${randomBusiness.phone}`
     site.innerHTML = randomBusiness.siteURL;
+    phone.textContent = `${randomBusiness.phone}`;
     phrase.innerHTML = `"${randomBusiness.phrase}"`;
 
     //Building attrubutes for img and link
@@ -51,6 +51,8 @@ const URL =
     card.appendChild(site);
 
     cards.appendChild(card);
+
+
 }
     }
 

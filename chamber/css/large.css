@@ -63,9 +63,7 @@
     grid-row: 1/4;
   }
 
-  #spotlight1,
-  #spotlight2,
-  #spotlight3 {
+  .spotlight .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 0em;
@@ -74,13 +72,20 @@
     margin-left: 1em;
   }
 
-  #spotlight1 {
+  .spotlight .card:first-child {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    border-bottom-left-radius: 0em;
     margin-top: 1em;
+    margin-right: 1em;
   }
 
-  #spotlight3 {
+  .spotlight .card:nth-child(2){
+    border-radius: 0em;
+    margin-left: 1em;
+  }
+
+  .spotlight .card:nth-child(3) {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     margin-bottom: 1em;
