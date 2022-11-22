@@ -27,32 +27,32 @@
   /*Main CSS*/
   main.home {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
 
   /*Section CSS*/
   #event {
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 1/2;
   }
 
   #weather {
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 2/3;
   }
 
   #join {
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 3/4;
   }
 
   #hero {
-    grid-column: 2/4;
+    grid-column: 3/6;
     grid-row: 1/3;
   }
 
   #news {
-    grid-column: 2/4;
+    grid-column: 3/6;
     grid-row: 3/4;
   }
 
@@ -60,7 +60,7 @@
   .spotlight {
     display: flex;
     flex-direction: column;
-    grid-column: 4/5;
+    grid-column: 6/8;
     grid-row: 1/4;
   }
 
