@@ -34,8 +34,8 @@ async function apiFetch() {
     if (temp <= 50 && windspeed > 3) {
         result = (35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16));
         roundresult = Math.round(result * 1)/1;
-     } else if (temp >= 50 && windspeed < 3) {
-         result = 'N/A';
+     } else{
+         roundresult = 'N/A';
      }
 
      icon.setAttribute('src', iconsrc);
