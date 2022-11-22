@@ -34,10 +34,7 @@ const URL =
 
     //Building attrubutes for img and link
     logo.setAttribute("src", randomBusiness.logoURL);
-    logo.setAttribute(
-      "alt",
-      `${randomBusiness.name} logo`
-    );
+    logo.setAttribute("alt", `${randomBusiness.name} logo`);
     logo.setAttribute("loading", "lazy");
     site.setAttribute("href", randomBusiness.siteURL);
     card.setAttribute("class", 'card')

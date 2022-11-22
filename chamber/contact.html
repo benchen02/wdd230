@@ -58,9 +58,9 @@
 
     <main class="contact">
 
-        <section class="contact">
-            <form action="thankyou2.html">
-                <fieldset class="contactform">
+        <section class="contactsection">
+            <form action="thankyou2.html" class="contactform">
+                <fieldset class="contactfield">
                 <legend>Contact Form</legend>
                 <div class="name">
                     <label for="fname">First Name: <span>*</span></label>
@@ -73,7 +73,7 @@
                 </div>
                 
                 <div class="bdescription">
-                    <label for="description">Business Description:</label>
+                    <label for="description">Questions/Concerns:</label>
                     <br><textarea name="description" id="description" cols="30" rows="4"></textarea></br>
                 </div>
 
@@ -81,16 +81,16 @@
 
                 <fieldset class="contactinfo">
                     <legend>Contact US</legend>
-                    <div class="address">
-                        Address
+                    <span class="address">
+                       <strong><div>Address</div></strong>
                         <p>321 S. New Avenue</p>
                         <p>Rexburg, ID 83440</p>
-                      </div>
+                    </span>
 
                       <span class="contact">
-                        <div id="email">Email</div>
+                        <strong><div id="email">Email</div></strong>
                         <p>moreinfo@mtvalleycc.org</p>
-                        <div id="email">Phone</div>
+                        <strong><div id="phone">Phone</div></strong>
                         <p>+1(823)-123-456</p>
                       </span>
                 </div>
@@ -98,13 +98,11 @@
                 </fieldset>
 
                 <input type="submit" value="Submit" id="submit">
+                <h3>Here are some points of contact</h3>
 
-                <div>
-                    <section>
-                        <h3>Here are some points of contact</h3>
-                        
-                    </section>
-                </div>
+                <section id="contactPoints">
+                    
+                </section>
     </main>
 
     <footer>
@@ -132,6 +130,7 @@
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/message.js"></script>
+      <script src="js/contact.js"></script>
     </footer>
 </body>
 

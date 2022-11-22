@@ -94,7 +94,7 @@
   }
 
   /*Join CSS*/
-  form{
+  .joinform{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -111,5 +111,7 @@
     margin-top: 1em;
     grid-column: 1/4;
   }
+
+  /*Contact CSS*/
 }
 

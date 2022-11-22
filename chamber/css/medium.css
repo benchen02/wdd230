@@ -59,7 +59,7 @@
   }
 
   /*Join CSS*/
-  form{
+  .joinform{
     display: flex;
     flex-direction: column;
   }
@@ -68,5 +68,13 @@
   /*List View*/
   .list section.card{
     flex-direction: row;
+  }
+
+  /*Contact CSS*/
+  #contactPoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
