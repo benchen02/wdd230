@@ -5,6 +5,10 @@
     flex-direction: column;
   }
 
+  h3{
+    font-size: 25px;
+  }
+
   /*Hero CSS*/
   #hero p {
     top: 23%;
@@ -86,5 +90,21 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  #contactset p{
+    margin: 10px;
+  }
+  
+  #contactset div{
+    font-size: 20px;
+  }
+  
+  #contactset span{
+    font-size: 23px;
+  }
+  
+  #contactset legend{
+    font-size: 17px;
   }
 }
