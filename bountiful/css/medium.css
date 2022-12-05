@@ -1,0 +1,10 @@
+@media (min-width: 700px) {
+  /*Main CSS*/
+  main.home {
+    flex-direction: column;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+}
