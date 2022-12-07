@@ -28,18 +28,58 @@
     </header>
 
     <main class="fresh">
-        <section class="section" id="hero">
+        <section class="section">
+          <form class="drinkform">
+            <fieldset class="userinfo">
+              <legend>User Information</legend>
+              <div class="fname">
+                <label for="fname">First Name: <span>*</span></label>
+                <br><input type="text" name="fname" id="fname">
+              </div>
 
+              <div class="email">
+                <label for="email">Email: <span>*</span></label>
+                <br><input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+            </div>
+
+            <div class="cell">
+              <label for="phone">Cell Number: <span>*</span> </label>
+              <br><input type="tel" name="phone" id="phone" placeholder="(888)-888-8888" required>
+          </div>
+
+            </fieldset>
+
+            <fieldset class="options">
+              <legend>Order Here</legend>
+              <label for="description">Special Instructions:</label>
+              <br><textarea name="description" id="description" cols="30" rows="4"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Submit" id="submit">
+          </form>
         </section>
     </main>
 
     <footer>
-
-      <div class="footer">
-        &copy; <span id="currentyear"></span> | Mountain Valley Chamber | Benson
-        Chen | WDD 230 Project | Last Updated: <span id="currentdate"></span>
+      <h3>Contact Information</h3>
+      <div class="address">
+        <strong><p>Address</p></strong>
+        <p>321 S. New Avenue</p>
+        <p>San Gabriel, California 91776</p>
       </div>
-      <div>Weather API brought to you by <a href="https://openweathermap.org">https://openweathermap.org</a></div>
+
+      <div class="contact">
+        <strong><p>Contact</p></strong>
+        <p>moreinfo@mtvalleycc.org</p>
+        <p>+1(626)-123-456</p>
+        <p class="map">Map Link</p>
+      </div>
+      
+      <div class="footer">
+        &copy; <span id="currentyear"></span> | Bountiful Foods | Benson
+        Chen | WDD 230 Final Project | Last Updated: <span id="currentdate"></span>
+      </div>
+      <div>Weather API brought to you by <a href="https://openweathermap.org" id="weatherlink">https://openweathermap.org</a></div>
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
     </footer>
