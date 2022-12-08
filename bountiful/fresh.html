@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
-    <title>Chamber of Commerce Site Plan</title>
+    <title>Bountiful Foods</title>
   </head>
   <body>
     <header>
@@ -52,7 +52,7 @@
 
     <main class="fresh">
         <section class="section">
-          <form class="drinkform">
+          <form class="drinkform" onsubmit="return false">
             <fieldset class="userinfo">
               <legend>User Information</legend>
               <div class="fname">
@@ -69,18 +69,38 @@
               <label for="phone">Cell Number: <span>*</span> </label>
               <br><input type="tel" name="phone" id="phone" placeholder="(888)-888-8888" required>
           </div>
-
             </fieldset>
 
             <fieldset class="options">
               <legend>Order Here</legend>
-              <label for="description">Special Instructions:</label>
-              <br><textarea name="description" id="description" cols="30" rows="4"></textarea>
-            </fieldset>
 
-            <input type="submit" value="Submit" id="submit">
+              <span class="fruit">Fruit #1: </span>
+              <select name="fruit#1" class="fruit" id="fruit1">
+                <option value="" selected="selected">Select a Fruit</option>
+              </select>
+
+              <br><span class="fruit">Fruit #2:</span>
+              <select name="fruit#2" class="fruit" id="fruit2">
+                <option value="" selected="selected">Select a Fruit</option>
+              </select>
+
+              <br><span class="fruit">Fruit #3:</span>
+              <select name="fruit#3" class="fruit" id="fruit3">
+                <option value="" selected="selected">Select a Fruit</option>
+              </select>
+
+              <br><label for="description">Special Instructions:</label>
+              <br><textarea name="description" id="description" cols="30" rows="4"></textarea>
+
+              <p class="info"></p>
+              <p class="desc"></p>
+            </fieldset>
+            <input onclick="output()" type="button" value="Submit" id="submit">
           </form>
         </section>
+
+        <section class="date"></section>
+        <section class="message"></section>
     </main>
 
     <footer>
@@ -105,6 +125,8 @@
       <div>Weather API brought to you by <a href="https://openweathermap.org" id="weatherlink">https://openweathermap.org</a></div>
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
+      <script src="js/fruits.js"></script>
+      <script src="js/output.js"></script>
     </footer>
   </body>
 </html>

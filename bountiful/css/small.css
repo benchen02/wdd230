@@ -221,3 +221,7 @@ legend{
 .fresh span{
   color: #b23835;
 }
+
+.fresh span.fruit {
+  color: black;
+}
