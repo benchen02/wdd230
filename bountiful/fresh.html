@@ -94,8 +94,12 @@
 
               <p class="info"></p>
               <p class="desc"></p>
+              <table>
+              <p class="nutrition"></p>
+            </table>
             </fieldset>
-            <input onclick="output()" type="button" value="Submit" id="submit">
+            <input onclick="output(fruit1, fruit2, fruit3); cnt()" type="button" value="Submit" id="submit">
+            <input type="hidden" class="submitcnt">
           </form>
         </section>
 
@@ -126,7 +130,7 @@
       <script src="js/date.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/fruits.js"></script>
-      <script src="js/output.js"></script>
+      <script src="js/vists.js"></script>
     </footer>
   </body>
 </html>
