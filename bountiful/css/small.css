@@ -350,6 +350,7 @@ table tr:nth-child(even){
 .about #sectcontact {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 

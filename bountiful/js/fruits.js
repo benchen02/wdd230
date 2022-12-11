@@ -1,4 +1,3 @@
-
 const url = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
 let data;
@@ -38,14 +37,12 @@ function displayFruit(fruit) {
 }
 
 function output() {
-
   const date = new Date();
 
   const section = document.querySelector(".message");
   const info = document.querySelector(".info");
   const instructions = document.querySelector(".desc");
   const currentDate = document.querySelector(".date");
-  const nutrition = document.querySelector(".nutrition");
   const table = document.querySelector("table");
 
   const fname = document.querySelector("#fname");
@@ -197,22 +194,31 @@ function output() {
     sugarvalue.textContent = `N/A`;
     calvalue.textContent = `N/A`;
   } else {
+
+    let cntnum = Number(window.localStorage.getItem("submits-ls"));
+
+    if (cntnum == 0) {
+      submitcnt.textContent = `Please make a drink mix on our fresh page`;
+      cntnum++;
+    } else {
+      cntnum++;
+    }
+    cntnum = Number(window.localStorage.setItem("submits-ls", cntnum));
+
     if (desc.value == "") {
       instructions.textContent = `Special Order instructions: N/A`;
     } else {
       instructions.textContent = `Special Order insturctions: ${desc.value}`;
     }
   }
-    tablehead.textContent = `Nutritional Value`;
-    carbs.textContent = `Total Carbs`;
-    protein.textContent = `Total Protein`;
-    fat.textContent = `Total Fat`;
-    sugar.textContent = `Total Sugar`;
-    cal.textContent = `Total Calories`;
+  tablehead.textContent = `Nutritional Value`;
+  carbs.textContent = `Total Carbs`;
+  protein.textContent = `Total Protein`;
+  fat.textContent = `Total Fat`;
+  sugar.textContent = `Total Sugar`;
+  cal.textContent = `Total Calories`;
 
-    
-
-  headrow.setAttribute("class", "headrow");
+  carbsvalue.setAttribute("class", "headrow");
   tablehead.setAttribute("colspan", 2);
 
   headrow.appendChild(tablehead);
