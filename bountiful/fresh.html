@@ -51,7 +51,7 @@
     </header>
 
     <main class="fresh">
-        <section class="section">
+        <section class="section" id="form">
           <form class="drinkform" onsubmit="return false">
             <fieldset class="userinfo">
               <legend>User Information</legend>
@@ -69,6 +69,9 @@
               <label for="phone">Cell Number: <span>*</span> </label>
               <br><input type="tel" name="phone" id="phone" placeholder="(888)-888-8888" required>
           </div>
+          
+          <span class="date"></span>
+          <span class="message"></span>
             </fieldset>
 
             <fieldset class="options">
@@ -94,7 +97,7 @@
 
               <p class="info"></p>
               <p class="desc"></p>
-              <table>
+              <table class="show">
               <p class="nutrition"></p>
             </table>
             </fieldset>
@@ -102,9 +105,6 @@
             <input type="hidden" class="submitcnt">
           </form>
         </section>
-
-        <section class="date"></section>
-        <section class="message"></section>
     </main>
 
     <footer>

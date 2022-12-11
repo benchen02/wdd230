@@ -22,4 +22,44 @@
   nav div{
     padding: 0.5em;
   }
+
+  /*Home CSS*/
+  main.home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  section.subsection{
+   
+    padding: 1px;
+    margin: 10px;
+    border-radius: 1em;
+  } 
+
+  #welcome {
+    grid-column: 1/4;
+  }
+
+  #city {
+    grid-column: 1/4;
+  }
+
+  #weather {
+    grid-column: 2/4;
+  }
+
+  /*Weather CSS*/
+
+#weather {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#weather h2{
+  grid-column: 1/4;
+}
+
+#weather img{
+  width: 25%;
+}
 }

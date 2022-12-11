@@ -7,4 +7,44 @@
   h3{
     font-size: 20px;
   }
+
+  #weather {
+    flex-direction: row;
+  }
+
+  /*Cities CSS*/
+  #city {
+    display: flex;
+    align-content: center;
+  }
+
+  .subsection p{
+    text-align: justify;
+  }
+  
+  .subsection img{
+    border-radius: 1em;
+    max-width: 25%;
+  }
+
+  #LA img, #OC img{
+    float: left;
+    margin-right: 1em;
+  }
+
+  #SD img {
+    float: right;
+    margin-left: 1em;
+  }
+
+  /*Fresh CSS*/ 
+
+  .drinkform{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #submit {
+    grid-column: 1/3;
+  }
 }

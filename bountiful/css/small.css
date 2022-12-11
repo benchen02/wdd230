@@ -44,6 +44,7 @@ footer {
 
 /* Header CSS */
 header {
+  background-image: url(../images/fruit_top.png);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -160,6 +161,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-image: url(../images/fruit_bot.png);
 }
 
 footer h3{
@@ -182,7 +184,93 @@ a#weatherlink{
   border-radius: 0px;
 }
 
+/*Home CSS*/
+#welcome p, #hero p {
+  text-align: center;
+}
+
+
+
+  /*Weather CSS*/
+#weather {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+  /*Cities CSS*/
+  section.subsection{
+    padding: 1px;
+    margin: 10px;
+    border-radius: 1em;
+  } 
+
+  .subsection img{
+    border-radius: 1em;
+    max-width: 250px;
+  }
+
+#weather section {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+#weather h2{
+  flex-basis: 100%;
+}
+
+#weather p{
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+#weather p.temp{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#weather img{
+  width: 20%;
+}
+
+#weather .desc {
+  text-transform: capitalize;
+  font-weight: bold;
+  flex-basis: 100%;
+}
+
+#weather .humidity {
+  grid-column: 1/3;
+  flex-basis: 100%;
+}
+
 /*Fresh CSS*/
+
+.drinkform {
+  display: flex;
+  flex-direction: column;
+}
+
+.date, .message{
+  padding: 0px;
+  color: black;
+}
+
+select{
+  padding: 5px 5px;
+  margin: 10px;
+  border: none;
+}
+
+option{
+  text-align: center;
+}
+
 input, textarea{
   margin-top: 5px;
 }
@@ -199,7 +287,8 @@ div{
   color: #e9e9e9;
   border: 2px solid #e9e9e9;
   border-radius: 7px;
-  text-align: c;
+  text-align: center;
+  margin: auto;
 }
 
 #submit:hover{
@@ -224,4 +313,46 @@ legend{
 
 .fresh span.fruit {
   color: black;
+}
+
+#form {
+  grid-column: 1/4;
+}
+
+  /*Table CSS*/
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border: 2px solid #e9e9e9;
+  padding: 5px;
+}
+
+table {
+  text-align: center;
+}
+
+th{
+  color: #e9e9e9;
+  background-color: #b23835;
+  border: none;
+  text-align: center;
+}
+
+table tr:nth-child(odd){
+  background-color: #b86361;
+}
+
+table tr:nth-child(even){
+  background-color: #aa7575;
+}
+
+/*About CSS*/
+.about #sectcontact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#sectcontact h2{
+  flex-basis: 100%;
 }

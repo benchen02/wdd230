@@ -10,7 +10,6 @@ async function weatherapi() {
 
   weatherapi();
 
-
   function displayWeather(weatherData){
 
     for(i=0;i<3;i++){
@@ -31,11 +30,11 @@ async function weatherapi() {
         desc.setAttribute('class', 'desc');
 
         humidity.textContent = `Humidity: ${weatherData.daily[i].humidity}%`;
-        humidity.setAttribute('class', humidity);
+        humidity.setAttribute('class', 'humidity');
 
+        card.appendChild(desc);
         card.appendChild(icon);
         card.appendChild(tempF);
-        card.appendChild(desc);
         card.appendChild(humidity);
 
         cards.appendChild(card);
